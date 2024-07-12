@@ -1367,3 +1367,7 @@ BCLib - The End  BiomeSource (5379961f)
 [12Jul2024 17:21:00.467] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: VivaCristoLol moved too quickly! 0.0,-10.342366735053567,0.0
 [12Jul2024 17:22:03.295] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: VivaCristoLol has made the advancement [Alex's Caves]
 [12Jul2024 17:22:06.648] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: VivaCristoLol has made the advancement [It Belongs in a Museum]
+[12Jul2024 17:26:50.896] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [VivaCristoLol: Set the time to 1000]
+[12Jul2024 17:27:39.740] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3358ms or 67 ticks behind
+[12Jul2024 17:29:35.356] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[12Jul2024 17:32:26.563] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [VivaCristoLol: Gave 1 [Lectern] to VivaCristoLol]
