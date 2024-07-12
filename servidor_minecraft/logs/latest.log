@@ -1,68 +1,68 @@
-[11Jul2024 00:33:08.491] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.2.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
-[11Jul2024 00:33:08.497] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.3 by Microsoft; OS Linux arch amd64 version 6.5.0-1022-azure
-[11Jul2024 00:33:09.825] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[11Jul2024 00:33:09.849] [main/INFO] [mixin-transmog/]: Mixin Transmogrifier is definitely up to no good...
-[11Jul2024 00:33:09.888] [main/INFO] [mixin-transmog/]: crimes against java were committed
-[11Jul2024 00:33:09.909] [main/INFO] [mixin-transmog/]: Original mixin transformation service successfully crobbed by mixin-transmogrifier!
-[11Jul2024 00:33:09.956] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/Modgest/servidor_minecraft/mods/Connector-1.0.0-beta.44+1.20.1.jar%23118%23121!/ Service=ModLauncher Env=SERVER
-[11Jul2024 00:33:10.379] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Modgest/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.2.0/fmlcore-1.20.1-47.2.0.jar is missing mods.toml file
-[11Jul2024 00:33:10.381] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Modgest/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.2.0/javafmllanguage-1.20.1-47.2.0.jar is missing mods.toml file
-[11Jul2024 00:33:10.383] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Modgest/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.2.0/lowcodelanguage-1.20.1-47.2.0.jar is missing mods.toml file
-[11Jul2024 00:33:10.384] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Modgest/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.2.0/mclanguage-1.20.1-47.2.0.jar is missing mods.toml file
-[11Jul2024 00:33:10.799] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
-[11Jul2024 00:33:10.802] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 47 dependencies adding them to mods collection
-[11Jul2024 00:33:12.022] [main/INFO] [org.sinytra.connector.locator.DependencyResolver/]: Dependency resolution found 4 candidates to load
-[11Jul2024 00:33:13.739] [main/INFO] [org.sinytra.connector.service.hacks.ModuleLayerMigrator/]: Successfully made module authlib transformable
-[11Jul2024 00:33:14.770] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[11Jul2024 00:33:14.924] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
-[11Jul2024 00:33:15.163] [main/WARN] [mixin/]: Reference map '' for adapter.init.mixins.json could not be read. If this is a development environment you can ignore this message
-[11Jul2024 00:33:15.532] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/MouseHandler for invalid dist DEDICATED_SERVER
-[11Jul2024 00:33:15.533] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/MouseHandler (java.lang.RuntimeException: Attempted to load class net/minecraft/client/MouseHandler for invalid dist DEDICATED_SERVER)
-[11Jul2024 00:33:15.534] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.MouseHandler was not found fabric-screen-api-v1.mixins.json:MouseMixin from mod fabric_screen_api_v1
-[11Jul2024 00:33:15.535] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
-[11Jul2024 00:33:15.536] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/Screen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER)
-[11Jul2024 00:33:15.536] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.Screen was not found fabric-screen-api-v1.mixins.json:ScreenAccessor from mod fabric_screen_api_v1
-[11Jul2024 00:33:16.316] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
-[11Jul2024 00:33:22.947] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [betternether] =^..^=    BetterNether for 1.20    =^..^=
-[11Jul2024 00:33:22.958] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Added Config betternether.main to auto sync (file hash)
-[11Jul2024 00:33:22.958] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Added Config betternether.generator to auto sync (file hash)
-[11Jul2024 00:33:22.959] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Added Config betternether.blocks to auto sync (file hash)
-[11Jul2024 00:33:22.959] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Added Config betternether.items to auto sync (file hash)
-[11Jul2024 00:33:22.960] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Added Config betternether.biomes to auto sync (file hash)
-[11Jul2024 00:33:22.961] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Added Config betternether.mobs to auto sync (file hash)
-[11Jul2024 00:33:22.961] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Added Config betternether.recipes to auto sync (file hash)
-[11Jul2024 00:33:23.314] [main/WARN] [org.betterx.worlds.together.util.Logger/]: [bclib] Recipe betternether:bone_block_bone_button only takes in a single item and should be shapeless
-[11Jul2024 00:33:24.052] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Added Config bclib.generator to auto sync (file hash)
-[11Jul2024 00:33:24.053] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Added Config bclib.main to auto sync (content diff)
-[11Jul2024 00:33:24.055] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Added Config bclib.biomes to auto sync (file hash)
-[11Jul2024 00:33:24.271] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Added Config betterend.entities to auto sync (file hash)
-[11Jul2024 00:33:24.273] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Added Config betterend.blocks to auto sync (file hash)
-[11Jul2024 00:33:24.274] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Added Config betterend.items to auto sync (file hash)
-[11Jul2024 00:33:24.274] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Added Config betterend.biomes to auto sync (file hash)
-[11Jul2024 00:33:24.275] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Added Config betterend.recipes to auto sync (file hash)
-[11Jul2024 00:33:24.276] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Added Config betterend.enchantments to auto sync (file hash)
-[11Jul2024 00:33:31.057] [modloading-worker-0/INFO] [ToolLeveling+/]: Loaded ForgeRegistrationFactory for service Factory
-[11Jul2024 00:33:31.062] [modloading-worker-0/INFO] [ToolLeveling+/]: Loaded ForgePlatformHelper for service PlatformHelper
-[11Jul2024 00:33:31.064] [modloading-worker-0/INFO] [ToolLeveling+/]: Initializing ToolLeveling+...
-[11Jul2024 00:33:31.084] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.2.0, for MC 1.20.1 with MCP 20230612.114412
-[11Jul2024 00:33:31.085] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.2.0 Initialized
-[11Jul2024 00:33:32.153] [main/INFO] [net.minecraft.resources.RegistryDataLoader/]: Capturing existing worldgen registries
-[11Jul2024 00:33:32.156] [main/INFO] [net.minecraft.resources.RegistryDataLoader/]: Found 2 injected RegistryDataLoader worldgen registries
-[11Jul2024 00:33:35.095] [modloading-worker-0/INFO] [ToolLeveling+/]: Created README.txt in config folder.
-[11Jul2024 00:33:35.096] [modloading-worker-0/INFO] [ToolLeveling+/]: Config 'tool_leveling_table.json' was successfully loaded.
-[11Jul2024 00:33:35.097] [modloading-worker-0/INFO] [ToolLeveling+/]: Saved the checked/corrected config: tool_leveling_table.json
-[11Jul2024 00:33:35.097] [modloading-worker-0/INFO] [ToolLeveling+/]: Config 'command_config.json' was successfully loaded.
-[11Jul2024 00:33:35.097] [modloading-worker-0/INFO] [ToolLeveling+/]: Saved the checked/corrected config: command_config.json
-[11Jul2024 00:33:35.489] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Starting version check at https://gist.githubusercontent.com/Tiviacz1337/906937677aa472285dff9d6c2a189d5e/raw
-[11Jul2024 00:33:35.895] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 1000) with the ID 0
-[11Jul2024 00:33:35.895] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 1000) with the ID 1
-[11Jul2024 00:33:35.896] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for Uncraftable Potion (Fluid Amount Required: 250) with the ID 2
-[11Jul2024 00:33:35.896] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:milk for Milk (Fluid Amount Required: 1000) with the ID 3
-[11Jul2024 00:33:35.917] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Found status: UP_TO_DATE Current: 9.1.14 Target: null
-[11Jul2024 00:33:35.920] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[11Jul2024 00:33:36.154] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.2.0 Target: 47.3.0
-[11Jul2024 00:33:36.155] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [ava] Starting version check at https://bitbucket.org/pelluciddice/ava/raw/release/1.20.x/update.json
-[11Jul2024 00:33:36.518] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+[12Jul2024 02:25:00.040] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.2.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
+[12Jul2024 02:25:00.045] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.3 by Microsoft; OS Linux arch amd64 version 6.5.0-1022-azure
+[12Jul2024 02:25:01.334] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[12Jul2024 02:25:01.354] [main/INFO] [mixin-transmog/]: Mixin Transmogrifier is definitely up to no good...
+[12Jul2024 02:25:01.393] [main/INFO] [mixin-transmog/]: crimes against java were committed
+[12Jul2024 02:25:01.415] [main/INFO] [mixin-transmog/]: Original mixin transformation service successfully crobbed by mixin-transmogrifier!
+[12Jul2024 02:25:01.468] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/Modgest/servidor_minecraft/mods/Connector-1.0.0-beta.44+1.20.1.jar%23118%23121!/ Service=ModLauncher Env=SERVER
+[12Jul2024 02:25:01.905] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Modgest/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.2.0/fmlcore-1.20.1-47.2.0.jar is missing mods.toml file
+[12Jul2024 02:25:01.906] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Modgest/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.2.0/javafmllanguage-1.20.1-47.2.0.jar is missing mods.toml file
+[12Jul2024 02:25:01.907] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Modgest/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.2.0/lowcodelanguage-1.20.1-47.2.0.jar is missing mods.toml file
+[12Jul2024 02:25:01.908] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/Modgest/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.2.0/mclanguage-1.20.1-47.2.0.jar is missing mods.toml file
+[12Jul2024 02:25:02.348] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
+[12Jul2024 02:25:02.375] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 47 dependencies adding them to mods collection
+[12Jul2024 02:25:03.587] [main/INFO] [org.sinytra.connector.locator.DependencyResolver/]: Dependency resolution found 4 candidates to load
+[12Jul2024 02:25:05.428] [main/INFO] [org.sinytra.connector.service.hacks.ModuleLayerMigrator/]: Successfully made module authlib transformable
+[12Jul2024 02:25:06.282] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[12Jul2024 02:25:06.456] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[12Jul2024 02:25:06.717] [main/WARN] [mixin/]: Reference map '' for adapter.init.mixins.json could not be read. If this is a development environment you can ignore this message
+[12Jul2024 02:25:07.410] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/MouseHandler for invalid dist DEDICATED_SERVER
+[12Jul2024 02:25:07.411] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/MouseHandler (java.lang.RuntimeException: Attempted to load class net/minecraft/client/MouseHandler for invalid dist DEDICATED_SERVER)
+[12Jul2024 02:25:07.412] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.MouseHandler was not found fabric-screen-api-v1.mixins.json:MouseMixin from mod fabric_screen_api_v1
+[12Jul2024 02:25:07.414] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
+[12Jul2024 02:25:07.414] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/Screen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER)
+[12Jul2024 02:25:07.414] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.Screen was not found fabric-screen-api-v1.mixins.json:ScreenAccessor from mod fabric_screen_api_v1
+[12Jul2024 02:25:08.658] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
+[12Jul2024 02:25:15.864] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [betternether] =^..^=    BetterNether for 1.20    =^..^=
+[12Jul2024 02:25:15.874] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Added Config betternether.main to auto sync (file hash)
+[12Jul2024 02:25:15.874] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Added Config betternether.generator to auto sync (file hash)
+[12Jul2024 02:25:15.875] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Added Config betternether.blocks to auto sync (file hash)
+[12Jul2024 02:25:15.875] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Added Config betternether.items to auto sync (file hash)
+[12Jul2024 02:25:15.876] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Added Config betternether.biomes to auto sync (file hash)
+[12Jul2024 02:25:15.876] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Added Config betternether.mobs to auto sync (file hash)
+[12Jul2024 02:25:15.876] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Added Config betternether.recipes to auto sync (file hash)
+[12Jul2024 02:25:16.165] [main/WARN] [org.betterx.worlds.together.util.Logger/]: [bclib] Recipe betternether:bone_block_bone_button only takes in a single item and should be shapeless
+[12Jul2024 02:25:16.741] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Added Config bclib.generator to auto sync (file hash)
+[12Jul2024 02:25:16.742] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Added Config bclib.main to auto sync (content diff)
+[12Jul2024 02:25:16.743] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Added Config bclib.biomes to auto sync (file hash)
+[12Jul2024 02:25:16.875] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Added Config betterend.entities to auto sync (file hash)
+[12Jul2024 02:25:16.876] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Added Config betterend.blocks to auto sync (file hash)
+[12Jul2024 02:25:16.876] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Added Config betterend.items to auto sync (file hash)
+[12Jul2024 02:25:16.877] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Added Config betterend.biomes to auto sync (file hash)
+[12Jul2024 02:25:16.877] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Added Config betterend.recipes to auto sync (file hash)
+[12Jul2024 02:25:16.877] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Added Config betterend.enchantments to auto sync (file hash)
+[12Jul2024 02:25:24.317] [modloading-worker-0/INFO] [ToolLeveling+/]: Loaded ForgeRegistrationFactory for service Factory
+[12Jul2024 02:25:24.341] [modloading-worker-0/INFO] [ToolLeveling+/]: Loaded ForgePlatformHelper for service PlatformHelper
+[12Jul2024 02:25:24.350] [modloading-worker-0/INFO] [ToolLeveling+/]: Initializing ToolLeveling+...
+[12Jul2024 02:25:24.386] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.2.0, for MC 1.20.1 with MCP 20230612.114412
+[12Jul2024 02:25:24.386] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.2.0 Initialized
+[12Jul2024 02:25:25.259] [main/INFO] [net.minecraft.resources.RegistryDataLoader/]: Capturing existing worldgen registries
+[12Jul2024 02:25:25.260] [main/INFO] [net.minecraft.resources.RegistryDataLoader/]: Found 2 injected RegistryDataLoader worldgen registries
+[12Jul2024 02:25:27.903] [modloading-worker-0/INFO] [ToolLeveling+/]: Created README.txt in config folder.
+[12Jul2024 02:25:27.910] [modloading-worker-0/INFO] [ToolLeveling+/]: Config 'tool_leveling_table.json' was successfully loaded.
+[12Jul2024 02:25:27.911] [modloading-worker-0/INFO] [ToolLeveling+/]: Saved the checked/corrected config: tool_leveling_table.json
+[12Jul2024 02:25:27.920] [modloading-worker-0/INFO] [ToolLeveling+/]: Config 'command_config.json' was successfully loaded.
+[12Jul2024 02:25:27.920] [modloading-worker-0/INFO] [ToolLeveling+/]: Saved the checked/corrected config: command_config.json
+[12Jul2024 02:25:28.175] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Starting version check at https://gist.githubusercontent.com/Tiviacz1337/906937677aa472285dff9d6c2a189d5e/raw
+[12Jul2024 02:25:28.448] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 1000) with the ID 0
+[12Jul2024 02:25:28.449] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 1000) with the ID 1
+[12Jul2024 02:25:28.450] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for Uncraftable Potion (Fluid Amount Required: 250) with the ID 2
+[12Jul2024 02:25:28.450] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:milk for Milk (Fluid Amount Required: 1000) with the ID 3
+[12Jul2024 02:25:28.459] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Found status: UP_TO_DATE Current: 9.1.14 Target: null
+[12Jul2024 02:25:28.460] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[12Jul2024 02:25:28.590] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.2.0 Target: 47.3.0
+[12Jul2024 02:25:28.591] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [ava] Starting version check at https://bitbucket.org/pelluciddice/ava/raw/release/1.20.x/update.json
+[12Jul2024 02:25:28.672] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
 com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
 	at com.google.gson.Gson.fromJson(Gson.java:1226) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%2372!/:?]
@@ -77,127 +77,170 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING
 	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
 	... 6 more
-[11Jul2024 00:33:36.519] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_bucketable] Starting version check at https://api.modrinth.com/updates/liI36we9/forge_updates.json
-[11Jul2024 00:33:36.643] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_bucketable] Found status: OUTDATED Current: 3.2 Target: 3.2+mod
-[11Jul2024 00:33:38.706] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[11Jul2024 00:33:40.861] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Applying Patch{betternether:5.3.5:21020677}
-[11Jul2024 00:33:40.861] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Applying Patch{betternether:8.2.2:33587202}
-[11Jul2024 00:33:40.861] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Applying Patch{betternether:9.0.1:37748737}
-[11Jul2024 00:33:40.861] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Applying Patch{bclib:3.0.11:12582923}
-[11Jul2024 00:33:40.862] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Running Pre Patchers on ./world/.
-[11Jul2024 00:33:40.875] [main/WARN] [org.betterx.worlds.together.util.Logger/]: [bclib] Applying Fixes on Level
-[11Jul2024 00:33:40.877] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Patcher Stage... message.bclib.datafixer.progress.reading%
-[11Jul2024 00:33:40.878] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Patcher Stage... message.bclib.datafixer.progress.players%
-[11Jul2024 00:33:40.881] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./playerdata/b70e1e88-4c8d-3f1a-935c-499629394137.dat
-[11Jul2024 00:33:40.882] [ForkJoinPool.commonPool-worker-1/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./playerdata/a09f4139-56e0-3c1d-82a7-f20421abec7b.dat
-[11Jul2024 00:33:40.884] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Patcher Stage... message.bclib.datafixer.progress.level%
-[11Jul2024 00:33:40.884] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting level.dat in ./world/.
-[11Jul2024 00:33:40.884] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Patcher Stage... message.bclib.datafixer.progress.worlddata%
-[11Jul2024 00:33:40.884] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Patcher Stage... message.bclib.datafixer.progress.regions%
-[11Jul2024 00:33:40.885] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./entities/r.-1.0.mca
-[11Jul2024 00:33:40.885] [ForkJoinPool.commonPool-worker-2/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./region/r.-1.1.mca
-[11Jul2024 00:33:40.888] [ForkJoinPool.commonPool-worker-1/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./region/r.0.1.mca
-[11Jul2024 00:33:40.889] [ForkJoinPool.commonPool-worker-3/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./region/r.-1.-2.mca
-[11Jul2024 00:33:40.989] [ForkJoinPool.commonPool-worker-2/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./region/r.0.-1.mca
-[11Jul2024 00:33:40.994] [ForkJoinPool.commonPool-worker-1/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./region/r.-1.0.mca
-[11Jul2024 00:33:41.126] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./entities/r.1.-2.mca
-[11Jul2024 00:33:41.175] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./poi/r.-1.-3.mca
-[11Jul2024 00:33:41.187] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./poi/r.1.-1.mca
-[11Jul2024 00:33:41.224] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./poi/r.-1.-2.mca
-[11Jul2024 00:33:41.281] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./entities/r.0.0.mca
-[11Jul2024 00:33:41.582] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./entities/r.-1.-1.mca
-[11Jul2024 00:33:41.699] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./entities/r.0.-1.mca
-[11Jul2024 00:33:42.330] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Patching... 34%
-[11Jul2024 00:33:42.330] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./entities/r.1.0.mca
-[11Jul2024 00:33:42.360] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./poi/r.1.-3.mca
-[11Jul2024 00:33:42.377] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./poi/r.0.-3.mca
-[11Jul2024 00:33:42.389] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./poi/r.-1.-1.mca
-[11Jul2024 00:33:42.455] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./poi/r.-1.0.mca
-[11Jul2024 00:33:42.497] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./poi/r.1.-2.mca
-[11Jul2024 00:33:42.519] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./poi/r.0.-1.mca
-[11Jul2024 00:33:42.556] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./poi/r.1.0.mca
-[11Jul2024 00:33:42.606] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./poi/r.0.0.mca
-[11Jul2024 00:33:42.660] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./poi/r.0.-2.mca
-[11Jul2024 00:33:42.693] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./poi/r.-1.1.mca
-[11Jul2024 00:33:42.708] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./entities/r.1.-1.mca
-[11Jul2024 00:33:42.758] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./entities/r.-1.-2.mca
-[11Jul2024 00:33:42.794] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./entities/r.0.-2.mca
-[11Jul2024 00:33:43.072] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./region/r.1.1.mca
-[11Jul2024 00:33:43.114] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./region/r.1.-2.mca
-[11Jul2024 00:33:43.487] [ForkJoinPool.commonPool-worker-1/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Patching... 72%
-[11Jul2024 00:33:43.487] [ForkJoinPool.commonPool-worker-1/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./region/r.0.-3.mca
-[11Jul2024 00:33:43.501] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./region/r.1.0.mca
-[11Jul2024 00:33:43.562] [ForkJoinPool.commonPool-worker-1/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./region/r.-1.-1.mca
-[11Jul2024 00:33:43.573] [ForkJoinPool.commonPool-worker-3/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./region/r.0.-2.mca
-[11Jul2024 00:33:43.884] [ForkJoinPool.commonPool-worker-2/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./region/r.-1.-3.mca
-[11Jul2024 00:33:43.890] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./region/r.0.0.mca
-[11Jul2024 00:33:43.962] [ForkJoinPool.commonPool-worker-2/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./region/r.1.-1.mca
-[11Jul2024 00:33:44.523] [ForkJoinPool.commonPool-worker-3/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Patching... 93%
-[11Jul2024 00:33:44.534] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./region/r.1.-3.mca
-[11Jul2024 00:33:44.554] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Patcher Stage... message.bclib.datafixer.progress.saving%
-[11Jul2024 00:33:44.555] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Updating Patch-Level for 'betternether' from 0.0.0 to 9.0.1
-[11Jul2024 00:33:44.556] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Updating Patch-Level for 'bclib' from 0.0.0 to 3.0.11
-[11Jul2024 00:33:44.566] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Modgest/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23141!/assets/.mcassetsroot' uses unexpected schema
-[11Jul2024 00:33:44.567] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Modgest/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23141!/data/.mcassetsroot' uses unexpected schema
-[11Jul2024 00:33:44.679] [main/INFO] [net.minecraft.resources.RegistryDataLoader/]: Using path as content location for registry worlds_together:worldgen/betterx/biome
-[11Jul2024 00:33:44.700] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Did not manage biome betterend:empty_aurora_cave
-[11Jul2024 00:33:44.700] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Did not manage biome betterend:empty_end_cave
-[11Jul2024 00:33:44.701] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Did not manage biome betterend:empty_smaragdant_cave
-[11Jul2024 00:33:44.704] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Did not manage biome betterend:jade_cave
-[11Jul2024 00:33:44.706] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Did not manage biome betterend:lush_aurora_cave
-[11Jul2024 00:33:44.706] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Did not manage biome betterend:lush_smaragdant_cave
-[11Jul2024 00:33:44.708] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Did not manage biome betterend:megalake_grove
-[11Jul2024 00:33:44.708] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Did not manage biome betterend:neon_oasis
-[11Jul2024 00:33:44.711] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Did not manage biome betterend:painted_mountains
-[11Jul2024 00:33:45.274] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Updating Pickers for BCLib - The End  BiomeSource (2bdb52eb)
-[11Jul2024 00:33:45.277] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Unable to build Biome List yet
-[11Jul2024 00:33:45.278] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] No Void Biomes found. Disabling by using barrens
-[11Jul2024 00:33:45.278] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] No Barrens Biomes found. Disabling by using land Biomes
-[11Jul2024 00:33:45.278] [main/WARN] [org.betterx.worlds.together.util.Logger/]: [bclib] No Center Island Biomes found. Forcing use of vanilla center.
-[11Jul2024 00:33:45.294] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Updating Pickers for BCLib - Nether BiomeSource (2040f4f3)
-[11Jul2024 00:33:45.295] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Unable to build Biome List yet
-[11Jul2024 00:33:45.303] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Updating Pickers for BCLib - The End  BiomeSource (312d7258)
-[11Jul2024 00:33:45.304] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Unable to build Biome List yet
-[11Jul2024 00:33:45.304] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] No Void Biomes found. Disabling by using barrens
-[11Jul2024 00:33:45.304] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] No Barrens Biomes found. Disabling by using land Biomes
-[11Jul2024 00:33:45.305] [main/WARN] [org.betterx.worlds.together.util.Logger/]: [bclib] No Center Island Biomes found. Forcing use of vanilla center.
-[11Jul2024 00:33:45.306] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Updating Pickers for BCLib - Nether BiomeSource (2ab932e6)
-[11Jul2024 00:33:45.306] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Unable to build Biome List yet
-[11Jul2024 00:33:45.307] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Updating Pickers for BCLib - The End  BiomeSource (7e42389c)
-[11Jul2024 00:33:45.307] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Unable to build Biome List yet
-[11Jul2024 00:33:45.308] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] No Void Biomes found. Disabling by using barrens
-[11Jul2024 00:33:45.308] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] No Barrens Biomes found. Disabling by using land Biomes
-[11Jul2024 00:33:45.308] [main/WARN] [org.betterx.worlds.together.util.Logger/]: [bclib] No Center Island Biomes found. Forcing use of vanilla center.
-[11Jul2024 00:33:45.311] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Updating Pickers for BCLib - Nether BiomeSource (63e1227b)
-[11Jul2024 00:33:45.311] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Unable to build Biome List yet
-[11Jul2024 00:33:45.312] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Updating Pickers for BCLib - The End  BiomeSource (4d531c44)
-[11Jul2024 00:33:45.312] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Unable to build Biome List yet
-[11Jul2024 00:33:45.313] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] No Void Biomes found. Disabling by using barrens
-[11Jul2024 00:33:45.313] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] No Barrens Biomes found. Disabling by using land Biomes
-[11Jul2024 00:33:45.313] [main/WARN] [org.betterx.worlds.together.util.Logger/]: [bclib] No Center Island Biomes found. Forcing use of vanilla center.
-[11Jul2024 00:33:45.314] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Updating Pickers for BCLib - Nether BiomeSource (67dc0da3)
-[11Jul2024 00:33:45.314] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Unable to build Biome List yet
-[11Jul2024 00:33:45.505] [main/INFO] [net.minecraft.resources.RegistryDataLoader/]: Using path as content location for registry worlds_together:worldgen/betterx/surface_rules
-[11Jul2024 00:33:45.527] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [betternether] Freeze Registry[ResourceKey[minecraft:root / worlds_together:worldgen/betterx/surface_rules] (Stable)]
-[11Jul2024 00:33:45.528] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [betternether] Freeze Registry[ResourceKey[minecraft:root / worlds_together:worldgen/betterx/surface_rules] (Stable)]
-[11Jul2024 00:33:45.530] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [betternether] Freeze Registry[ResourceKey[minecraft:root / worlds_together:worldgen/betterx/surface_rules] (Stable)]
-[11Jul2024 00:33:45.533] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [betternether] Freeze Registry[ResourceKey[minecraft:root / worlds_together:worldgen/betterx/surface_rules] (Stable)]
-[11Jul2024 00:33:45.534] [main/WARN] [org.betterx.worlds.together.util.Logger/]: [bclib] No valid Biome Registry available!
-[11Jul2024 00:33:45.534] [main/WARN] [org.betterx.worlds.together.util.Logger/]: [bclib] No valid BCLBiome Registry available!
-[11Jul2024 00:33:46.324] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Updating Pickers for BCLib - Nether BiomeSource (51f960af)
-[11Jul2024 00:33:46.324] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Unable to build Biome List yet
-[11Jul2024 00:33:46.326] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Updating Pickers for BCLib - The End  BiomeSource (7af8531c)
-[11Jul2024 00:33:46.327] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Unable to build Biome List yet
-[11Jul2024 00:33:46.327] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] No Void Biomes found. Disabling by using barrens
-[11Jul2024 00:33:46.327] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] No Barrens Biomes found. Disabling by using land Biomes
-[11Jul2024 00:33:46.328] [main/WARN] [org.betterx.worlds.together.util.Logger/]: [bclib] No Center Island Biomes found. Forcing use of vanilla center.
-[11Jul2024 00:33:46.407] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [betternether] Freeze Registry[ResourceKey[minecraft:root / worlds_together:worldgen/betterx/surface_rules] (Stable)]
-[11Jul2024 00:33:46.413] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [betternether] Freeze Registry[ResourceKey[minecraft:root / worlds_together:worldgen/betterx/surface_rules] (Stable)]
-[11Jul2024 00:33:46.993] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
-[11Jul2024 00:33:48.040] [main/ERROR] [org.betterx.worlds.together.util.Logger/]: [bclib] ERROR building loot table: 'void net.minecraft.world.level.storage.loot.LootPool.<init>(net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer[], net.minecraft.world.level.storage.loot.predicates.LootItemCondition[], net.minecraft.world.level.storage.loot.functions.LootItemFunction[], net.minecraft.world.level.storage.loot.providers.number.NumberProvider, net.minecraft.world.level.storage.loot.providers.number.NumberProvider)'
-[11Jul2024 00:33:48.041] [main/ERROR] [org.betterx.worlds.together.util.Logger/]: [betternether] Unable to building bartering table
-[11Jul2024 00:33:48.065] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Disabling Recipe: bclib:test_star
-[11Jul2024 00:33:48.159] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe betterend:guide_book
+[12Jul2024 02:25:28.673] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_bucketable] Starting version check at https://api.modrinth.com/updates/liI36we9/forge_updates.json
+[12Jul2024 02:25:28.783] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_bucketable] Found status: OUTDATED Current: 3.2 Target: 3.2+mod
+[12Jul2024 02:25:31.145] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[12Jul2024 02:25:33.241] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Applying Patch{betternether:5.3.5:21020677}
+[12Jul2024 02:25:33.242] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Applying Patch{betternether:8.2.2:33587202}
+[12Jul2024 02:25:33.242] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Applying Patch{betternether:9.0.1:37748737}
+[12Jul2024 02:25:33.242] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Applying Patch{bclib:3.0.11:12582923}
+[12Jul2024 02:25:33.242] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Running Pre Patchers on ./world/.
+[12Jul2024 02:25:33.263] [main/WARN] [org.betterx.worlds.together.util.Logger/]: [bclib] Applying Fixes on Level
+[12Jul2024 02:25:33.265] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Patcher Stage... message.bclib.datafixer.progress.reading%
+[12Jul2024 02:25:33.267] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Patcher Stage... message.bclib.datafixer.progress.players%
+[12Jul2024 02:25:33.268] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./playerdata/7a62dbad-cd2f-31b1-ab4b-4d56468a044d.dat
+[12Jul2024 02:25:33.268] [ForkJoinPool.commonPool-worker-1/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./playerdata/a09f4139-56e0-3c1d-82a7-f20421abec7b.dat
+[12Jul2024 02:25:33.268] [ForkJoinPool.commonPool-worker-2/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./playerdata/1fcaee81-55d8-3021-8f50-d34f51909337.dat
+[12Jul2024 02:25:33.269] [ForkJoinPool.commonPool-worker-3/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./playerdata/b70e1e88-4c8d-3f1a-935c-499629394137.dat
+[12Jul2024 02:25:33.280] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Patcher Stage... message.bclib.datafixer.progress.level%
+[12Jul2024 02:25:33.280] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting level.dat in ./world/.
+[12Jul2024 02:25:33.280] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Patcher Stage... message.bclib.datafixer.progress.worlddata%
+[12Jul2024 02:25:33.281] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Patcher Stage... message.bclib.datafixer.progress.regions%
+[12Jul2024 02:25:33.281] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./entities/r.4.-2.mca
+[12Jul2024 02:25:33.284] [ForkJoinPool.commonPool-worker-2/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./region/r.2.-3.mca
+[12Jul2024 02:25:33.284] [ForkJoinPool.commonPool-worker-1/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./poi/r.-1.-1.mca
+[12Jul2024 02:25:33.285] [ForkJoinPool.commonPool-worker-3/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./region/r.2.0.mca
+[12Jul2024 02:25:33.333] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./entities/r.-1.0.mca
+[12Jul2024 02:25:33.340] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./entities/r.2.-2.mca
+[12Jul2024 02:25:33.346] [ForkJoinPool.commonPool-worker-1/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./poi/r.3.-1.mca
+[12Jul2024 02:25:33.378] [ForkJoinPool.commonPool-worker-1/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./poi/r.3.-4.mca
+[12Jul2024 02:25:33.442] [ForkJoinPool.commonPool-worker-1/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./poi/r.2.-1.mca
+[12Jul2024 02:25:33.503] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./entities/r.1.-2.mca
+[12Jul2024 02:25:33.575] [ForkJoinPool.commonPool-worker-1/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./poi/r.2.-4.mca
+[12Jul2024 02:25:33.617] [ForkJoinPool.commonPool-worker-1/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./poi/r.4.-2.mca
+[12Jul2024 02:25:33.676] [ForkJoinPool.commonPool-worker-1/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./poi/r.2.0.mca
+[12Jul2024 02:25:33.687] [ForkJoinPool.commonPool-worker-1/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./poi/r.-1.0.mca
+[12Jul2024 02:25:33.737] [ForkJoinPool.commonPool-worker-1/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./poi/r.2.-2.mca
+[12Jul2024 02:25:33.741] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./poi/r.-1.-3.mca
+[12Jul2024 02:25:33.758] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./poi/r.1.-1.mca
+[12Jul2024 02:25:33.809] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./poi/r.-1.-2.mca
+[12Jul2024 02:25:33.866] [ForkJoinPool.commonPool-worker-1/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./poi/r.1.-2.mca
+[12Jul2024 02:25:33.879] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./poi/r.4.-4.mca
+[12Jul2024 02:25:33.907] [ForkJoinPool.commonPool-worker-1/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./poi/r.1.0.mca
+[12Jul2024 02:25:33.918] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./poi/r.4.-3.mca
+[12Jul2024 02:25:33.929] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./poi/r.0.-2.mca
+[12Jul2024 02:25:33.929] [ForkJoinPool.commonPool-worker-1/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./poi/r.3.-2.mca
+[12Jul2024 02:25:33.992] [ForkJoinPool.commonPool-worker-1/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./poi/r.0.0.mca
+[12Jul2024 02:25:33.997] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./entities/r.-1.-1.mca
+[12Jul2024 02:25:34.012] [ForkJoinPool.commonPool-worker-1/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./poi/r.1.-3.mca
+[12Jul2024 02:25:34.026] [ForkJoinPool.commonPool-worker-1/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./poi/r.0.-3.mca
+[12Jul2024 02:25:34.043] [ForkJoinPool.commonPool-worker-1/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./poi/r.3.-3.mca
+[12Jul2024 02:25:34.094] [ForkJoinPool.commonPool-worker-1/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./poi/r.-1.1.mca
+[12Jul2024 02:25:34.104] [ForkJoinPool.commonPool-worker-1/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./poi/r.0.-1.mca
+[12Jul2024 02:25:34.153] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./entities/r.3.-1.mca
+[12Jul2024 02:25:34.156] [ForkJoinPool.commonPool-worker-1/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./poi/r.2.-3.mca
+[12Jul2024 02:25:34.204] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./entities/r.3.-4.mca
+[12Jul2024 02:25:34.208] [ForkJoinPool.commonPool-worker-1/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./entities/r.1.0.mca
+[12Jul2024 02:25:34.245] [ForkJoinPool.commonPool-worker-1/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./entities/r.3.-2.mca
+[12Jul2024 02:25:34.378] [ForkJoinPool.commonPool-worker-3/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Patching... 48%
+[12Jul2024 02:25:34.378] [ForkJoinPool.commonPool-worker-3/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./region/r.0.1.mca
+[12Jul2024 02:25:34.420] [ForkJoinPool.commonPool-worker-3/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./region/r.-1.0.mca
+[12Jul2024 02:25:34.437] [ForkJoinPool.commonPool-worker-1/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./entities/r.0.0.mca
+[12Jul2024 02:25:34.443] [ForkJoinPool.commonPool-worker-1/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./entities/r.0.-3.mca
+[12Jul2024 02:25:34.560] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./entities/r.2.-1.mca
+[12Jul2024 02:25:34.574] [ForkJoinPool.commonPool-worker-1/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./region/r.4.-3.mca
+[12Jul2024 02:25:34.883] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./entities/r.2.-4.mca
+[12Jul2024 02:25:34.959] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./region/r.-1.-3.mca
+[12Jul2024 02:25:35.669] [ForkJoinPool.commonPool-worker-1/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Patching... 57%
+[12Jul2024 02:25:35.670] [ForkJoinPool.commonPool-worker-1/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./region/r.0.-2.mca
+[12Jul2024 02:25:35.863] [ForkJoinPool.commonPool-worker-2/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./region/r.1.0.mca
+[12Jul2024 02:25:35.956] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./region/r.1.-1.mca
+[12Jul2024 02:25:37.163] [ForkJoinPool.commonPool-worker-3/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Patching... 61%
+[12Jul2024 02:25:37.163] [ForkJoinPool.commonPool-worker-3/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./region/r.2.-2.mca
+[12Jul2024 02:25:37.218] [ForkJoinPool.commonPool-worker-2/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./region/r.3.-2.mca
+[12Jul2024 02:25:38.433] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Patching... 63%
+[12Jul2024 02:25:38.434] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./region/r.-1.-2.mca
+[12Jul2024 02:25:38.436] [ForkJoinPool.commonPool-worker-1/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./region/r.3.-3.mca
+[12Jul2024 02:25:38.504] [ForkJoinPool.commonPool-worker-3/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./region/r.1.1.mca
+[12Jul2024 02:25:38.509] [ForkJoinPool.commonPool-worker-2/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./region/r.0.0.mca
+[12Jul2024 02:25:38.520] [ForkJoinPool.commonPool-worker-3/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./region/r.3.-4.mca
+[12Jul2024 02:25:39.647] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Patching... 69%
+[12Jul2024 02:25:39.648] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./region/r.4.-4.mca
+[12Jul2024 02:25:39.686] [ForkJoinPool.commonPool-worker-3/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./region/r.2.-1.mca
+[12Jul2024 02:25:39.718] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./region/r.1.-3.mca
+[12Jul2024 02:25:39.825] [ForkJoinPool.commonPool-worker-2/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./entities/r.4.-3.mca
+[12Jul2024 02:25:39.852] [ForkJoinPool.commonPool-worker-2/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./entities/r.0.-2.mca
+[12Jul2024 02:25:39.931] [ForkJoinPool.commonPool-worker-2/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./entities/r.3.-3.mca
+[12Jul2024 02:25:39.951] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./region/r.3.0.mca
+[12Jul2024 02:25:39.994] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./region/r.0.-3.mca
+[12Jul2024 02:25:39.996] [ForkJoinPool.commonPool-worker-2/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./entities/r.0.-1.mca
+[12Jul2024 02:25:40.005] [ForkJoinPool.commonPool-worker-2/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./entities/r.2.-3.mca
+[12Jul2024 02:25:40.107] [ForkJoinPool.commonPool-worker-2/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./region/r.1.-2.mca
+[12Jul2024 02:25:40.148] [ForkJoinPool.commonPool-worker-1/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./region/r.-1.1.mca
+[12Jul2024 02:25:40.162] [ForkJoinPool.commonPool-worker-1/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./region/r.0.-1.mca
+[12Jul2024 02:25:40.757] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Patching... 86%
+[12Jul2024 02:25:40.757] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./region/r.-1.-1.mca
+[12Jul2024 02:25:41.027] [ForkJoinPool.commonPool-worker-3/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./region/r.2.-4.mca
+[12Jul2024 02:25:41.126] [ForkJoinPool.commonPool-worker-2/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./entities/r.-1.-3.mca
+[12Jul2024 02:25:41.148] [ForkJoinPool.commonPool-worker-2/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./entities/r.1.-1.mca
+[12Jul2024 02:25:41.182] [ForkJoinPool.commonPool-worker-2/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./entities/r.-1.-2.mca
+[12Jul2024 02:25:41.198] [ForkJoinPool.commonPool-worker-2/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./entities/r.4.-4.mca
+[12Jul2024 02:25:41.237] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./region/r.3.-1.mca
+[12Jul2024 02:25:41.260] [ForkJoinPool.commonPool-worker-3/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Inspecting ./world/./region/r.4.-2.mca
+[12Jul2024 02:25:41.360] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Patcher Stage... message.bclib.datafixer.progress.saving%
+[12Jul2024 02:25:41.362] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Updating Patch-Level for 'betternether' from 0.0.0 to 9.0.1
+[12Jul2024 02:25:41.362] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [DataFixerAPI] Updating Patch-Level for 'bclib' from 0.0.0 to 3.0.11
+[12Jul2024 02:25:41.375] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Modgest/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23141!/assets/.mcassetsroot' uses unexpected schema
+[12Jul2024 02:25:41.375] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Modgest/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23141!/data/.mcassetsroot' uses unexpected schema
+[12Jul2024 02:25:41.524] [main/INFO] [net.minecraft.resources.RegistryDataLoader/]: Using path as content location for registry worlds_together:worldgen/betterx/biome
+[12Jul2024 02:25:41.549] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Did not manage biome betterend:empty_aurora_cave
+[12Jul2024 02:25:41.549] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Did not manage biome betterend:empty_end_cave
+[12Jul2024 02:25:41.550] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Did not manage biome betterend:empty_smaragdant_cave
+[12Jul2024 02:25:41.553] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Did not manage biome betterend:jade_cave
+[12Jul2024 02:25:41.556] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Did not manage biome betterend:lush_aurora_cave
+[12Jul2024 02:25:41.556] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Did not manage biome betterend:lush_smaragdant_cave
+[12Jul2024 02:25:41.558] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Did not manage biome betterend:megalake_grove
+[12Jul2024 02:25:41.559] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Did not manage biome betterend:neon_oasis
+[12Jul2024 02:25:41.561] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Did not manage biome betterend:painted_mountains
+[12Jul2024 02:25:42.134] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Updating Pickers for BCLib - The End  BiomeSource (1465be1d)
+[12Jul2024 02:25:42.137] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Unable to build Biome List yet
+[12Jul2024 02:25:42.138] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] No Void Biomes found. Disabling by using barrens
+[12Jul2024 02:25:42.138] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] No Barrens Biomes found. Disabling by using land Biomes
+[12Jul2024 02:25:42.138] [main/WARN] [org.betterx.worlds.together.util.Logger/]: [bclib] No Center Island Biomes found. Forcing use of vanilla center.
+[12Jul2024 02:25:42.158] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Updating Pickers for BCLib - Nether BiomeSource (619fdbd9)
+[12Jul2024 02:25:42.158] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Unable to build Biome List yet
+[12Jul2024 02:25:42.168] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Updating Pickers for BCLib - The End  BiomeSource (281eb645)
+[12Jul2024 02:25:42.168] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Unable to build Biome List yet
+[12Jul2024 02:25:42.168] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] No Void Biomes found. Disabling by using barrens
+[12Jul2024 02:25:42.168] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] No Barrens Biomes found. Disabling by using land Biomes
+[12Jul2024 02:25:42.168] [main/WARN] [org.betterx.worlds.together.util.Logger/]: [bclib] No Center Island Biomes found. Forcing use of vanilla center.
+[12Jul2024 02:25:42.169] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Updating Pickers for BCLib - Nether BiomeSource (312d7258)
+[12Jul2024 02:25:42.169] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Unable to build Biome List yet
+[12Jul2024 02:25:42.170] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Updating Pickers for BCLib - The End  BiomeSource (6c4013a5)
+[12Jul2024 02:25:42.170] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Unable to build Biome List yet
+[12Jul2024 02:25:42.170] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] No Void Biomes found. Disabling by using barrens
+[12Jul2024 02:25:42.170] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] No Barrens Biomes found. Disabling by using land Biomes
+[12Jul2024 02:25:42.170] [main/WARN] [org.betterx.worlds.together.util.Logger/]: [bclib] No Center Island Biomes found. Forcing use of vanilla center.
+[12Jul2024 02:25:42.173] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Updating Pickers for BCLib - Nether BiomeSource (62d5c3e3)
+[12Jul2024 02:25:42.173] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Unable to build Biome List yet
+[12Jul2024 02:25:42.175] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Updating Pickers for BCLib - The End  BiomeSource (529dad11)
+[12Jul2024 02:25:42.175] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Unable to build Biome List yet
+[12Jul2024 02:25:42.175] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] No Void Biomes found. Disabling by using barrens
+[12Jul2024 02:25:42.175] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] No Barrens Biomes found. Disabling by using land Biomes
+[12Jul2024 02:25:42.175] [main/WARN] [org.betterx.worlds.together.util.Logger/]: [bclib] No Center Island Biomes found. Forcing use of vanilla center.
+[12Jul2024 02:25:42.176] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Updating Pickers for BCLib - Nether BiomeSource (4d531c44)
+[12Jul2024 02:25:42.176] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Unable to build Biome List yet
+[12Jul2024 02:25:42.410] [main/INFO] [net.minecraft.resources.RegistryDataLoader/]: Using path as content location for registry worlds_together:worldgen/betterx/surface_rules
+[12Jul2024 02:25:42.426] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [betternether] Freeze Registry[ResourceKey[minecraft:root / worlds_together:worldgen/betterx/surface_rules] (Stable)]
+[12Jul2024 02:25:42.427] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [betternether] Freeze Registry[ResourceKey[minecraft:root / worlds_together:worldgen/betterx/surface_rules] (Stable)]
+[12Jul2024 02:25:42.429] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [betternether] Freeze Registry[ResourceKey[minecraft:root / worlds_together:worldgen/betterx/surface_rules] (Stable)]
+[12Jul2024 02:25:42.430] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [betternether] Freeze Registry[ResourceKey[minecraft:root / worlds_together:worldgen/betterx/surface_rules] (Stable)]
+[12Jul2024 02:25:42.430] [main/WARN] [org.betterx.worlds.together.util.Logger/]: [bclib] No valid Biome Registry available!
+[12Jul2024 02:25:42.431] [main/WARN] [org.betterx.worlds.together.util.Logger/]: [bclib] No valid BCLBiome Registry available!
+[12Jul2024 02:25:42.988] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Updating Pickers for BCLib - Nether BiomeSource (2cd9aa35)
+[12Jul2024 02:25:42.989] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Unable to build Biome List yet
+[12Jul2024 02:25:42.990] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Updating Pickers for BCLib - The End  BiomeSource (51f960af)
+[12Jul2024 02:25:42.990] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Unable to build Biome List yet
+[12Jul2024 02:25:42.990] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] No Void Biomes found. Disabling by using barrens
+[12Jul2024 02:25:42.990] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] No Barrens Biomes found. Disabling by using land Biomes
+[12Jul2024 02:25:42.990] [main/WARN] [org.betterx.worlds.together.util.Logger/]: [bclib] No Center Island Biomes found. Forcing use of vanilla center.
+[12Jul2024 02:25:43.017] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [betternether] Freeze Registry[ResourceKey[minecraft:root / worlds_together:worldgen/betterx/surface_rules] (Stable)]
+[12Jul2024 02:25:43.019] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [betternether] Freeze Registry[ResourceKey[minecraft:root / worlds_together:worldgen/betterx/surface_rules] (Stable)]
+[12Jul2024 02:25:43.515] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
+[12Jul2024 02:25:44.441] [main/ERROR] [org.betterx.worlds.together.util.Logger/]: [bclib] ERROR building loot table: 'void net.minecraft.world.level.storage.loot.LootPool.<init>(net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer[], net.minecraft.world.level.storage.loot.predicates.LootItemCondition[], net.minecraft.world.level.storage.loot.functions.LootItemFunction[], net.minecraft.world.level.storage.loot.providers.number.NumberProvider, net.minecraft.world.level.storage.loot.providers.number.NumberProvider)'
+[12Jul2024 02:25:44.442] [main/ERROR] [org.betterx.worlds.together.util.Logger/]: [betternether] Unable to building bartering table
+[12Jul2024 02:25:44.476] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Disabling Recipe: bclib:test_star
+[12Jul2024 02:25:44.556] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe betterend:guide_book
 com.google.gson.JsonSyntaxException: Unknown item 'betterend:guidebook'
 	at net.minecraftforge.common.crafting.CraftingHelper.getItem(CraftingHelper.java:160) ~[forge-1.20.1-47.2.0-universal.jar%23146!/:?]
 	at net.minecraftforge.common.crafting.CraftingHelper.getItemStack(CraftingHelper.java:186) ~[forge-1.20.1-47.2.0-universal.jar%23146!/:?]
@@ -228,206 +271,339 @@ com.google.gson.JsonSyntaxException: Unknown item 'betterend:guidebook'
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[11Jul2024 00:33:48.178] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 10 recipes
-[11Jul2024 00:33:48.339] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 3207 advancements
-[11Jul2024 00:33:48.409] [main/ERROR] [ava/]: Failed to sync! The server is not up yet.
-[11Jul2024 00:33:48.409] [main/INFO] [ava/]: Loading loading images on server
-[11Jul2024 00:33:48.410] [main/ERROR] [ava/]: Failed to reload loading images, maybe the server is still starting?
-[11Jul2024 00:33:50.100] [main/ERROR] [org.betterx.worlds.together.util.Logger/]: [worlds_together] Error for jar:file:///workspaces/Modgest/servidor_minecraft/mods/alexsmobs-1.22.8.jar: java.nio.file.NoSuchFileException: /fabric.mod.json
-[11Jul2024 00:33:50.103] [main/ERROR] [org.betterx.worlds.together.util.Logger/]: [worlds_together] Error for jar:file:///workspaces/Modgest/servidor_minecraft/mods/travelersbackpack-forge-1.20.1-9.1.14.jar: java.nio.file.NoSuchFileException: /fabric.mod.json
-[11Jul2024 00:33:50.105] [main/ERROR] [org.betterx.worlds.together.util.Logger/]: [worlds_together] Error for jar:file:///workspaces/Modgest/servidor_minecraft/mods/Connector-1.0.0-beta.44+1.20.1.jar: java.nio.file.NoSuchFileException: /fabric.mod.json
-[11Jul2024 00:33:50.106] [main/ERROR] [org.betterx.worlds.together.util.Logger/]: [worlds_together] Error for jar:file:///workspaces/Modgest/servidor_minecraft/mods/carryon-forge-1.20.1-2.1.2.7.jar: java.nio.file.NoSuchFileException: /fabric.mod.json
-[11Jul2024 00:33:50.107] [main/ERROR] [org.betterx.worlds.together.util.Logger/]: [worlds_together] Error for jar:file:///workspaces/Modgest/servidor_minecraft/mods/jei-1.20.1-forge-15.3.0.8.jar: java.nio.file.NoSuchFileException: /fabric.mod.json
-[11Jul2024 00:33:50.113] [main/ERROR] [org.betterx.worlds.together.util.Logger/]: [worlds_together] Error for jar:file:///workspaces/Modgest/servidor_minecraft/mods/ava-1.20.1-2.5.9.jar: java.nio.file.NoSuchFileException: /fabric.mod.json
-[11Jul2024 00:33:50.122] [main/ERROR] [org.betterx.worlds.together.util.Logger/]: [worlds_together] Error for jar:file:///workspaces/Modgest/servidor_minecraft/mods/alexscaves-1.1.4.jar: java.nio.file.NoSuchFileException: /fabric.mod.json
-[11Jul2024 00:33:50.123] [main/ERROR] [org.betterx.worlds.together.util.Logger/]: [worlds_together] Error for jar:file:///workspaces/Modgest/servidor_minecraft/mods/citadel-2.5.4-1.20.1.jar: java.nio.file.NoSuchFileException: /fabric.mod.json
-[11Jul2024 00:33:50.124] [main/ERROR] [org.betterx.worlds.together.util.Logger/]: [worlds_together] Error for jar:file:///workspaces/Modgest/servidor_minecraft/mods/toolleveling-forge-1.20.1-2.0.0.jar: java.nio.file.NoSuchFileException: /fabric.mod.json
-[11Jul2024 00:33:50.126] [main/ERROR] [org.betterx.worlds.together.util.Logger/]: [worlds_together] Error for jar:file:///workspaces/Modgest/servidor_minecraft/mods/DungeonsArise-1.20.x-2.1.58-release.jar: java.nio.file.NoSuchFileException: /fabric.mod.json
-[11Jul2024 00:33:50.126] [main/ERROR] [org.betterx.worlds.together.util.Logger/]: [worlds_together] Error for jar:file:///workspaces/Modgest/servidor_minecraft/mods/fabric-api-0.92.2+1.11.8+1.20.1.jar: java.nio.file.NoSuchFileException: /fabric.mod.json
-[11Jul2024 00:33:50.131] [main/ERROR] [org.betterx.worlds.together.util.Logger/]: [worlds_together] Error for jar:file:///workspaces/Modgest/servidor_minecraft/mods/CreativeCore_FORGE_v2.11.30_mc1.20.1.jar: java.nio.file.NoSuchFileException: /fabric.mod.json
-[11Jul2024 00:33:50.132] [main/ERROR] [org.betterx.worlds.together.util.Logger/]: [worlds_together] Error for jar:file:///workspaces/Modgest/servidor_minecraft/mods/PlayerRevive_FORGE_v2.0.25_mc1.20.1.jar: java.nio.file.NoSuchFileException: /fabric.mod.json
-[11Jul2024 00:33:50.137] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Updating Pickers for BCLib - The End  BiomeSource (7af8531c)
-[11Jul2024 00:33:50.143] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Updating Pickers for BCLib - Nether BiomeSource (51f960af)
-[11Jul2024 00:33:50.604] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[11Jul2024 00:33:50.605] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[11Jul2024 00:33:50.605] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[11Jul2024 00:33:50.606] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[11Jul2024 00:33:50.714] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[11Jul2024 00:33:50.766] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[11Jul2024 00:33:50.850] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[11Jul2024 00:33:50.851] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[11Jul2024 00:33:50.851] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[11Jul2024 00:33:50.851] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[11Jul2024 00:33:50.861] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [betternether] Freeze Registry[ResourceKey[minecraft:root / worlds_together:worldgen/betterx/surface_rules] (Stable)]
-[11Jul2024 00:33:50.871] [Thread-2/INFO] [ava/]: Server config changed, notifying clients.
-[11Jul2024 00:33:50.994] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Updating Pickers for BCLib - The End  BiomeSource (7af8531c)
-[11Jul2024 00:33:50.997] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Updating Pickers for BCLib - Nether BiomeSource (51f960af)
-[11Jul2024 00:33:51.008] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[11Jul2024 00:33:51.010] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 
-Apply Modifications for minecraft:the_end
-    BCLib - The End  BiomeSource (7af8531c)
-        biomes     = 24
-        namespaces = minecraft(5), betterend(19)
-        seed       = 2
-        height     = 128
-        deciders   = 0
-        config     = BCLEndBiomeSourceConfig{mapVersion=hex, generatorVersion=vanilla, withVoidBiomes=true, innerVoidRadiusSquared=1048576, voidBiomesSize=256, centerBiomesSize=256, landBiomesSize=256, barrensBiomesSize=256}
-[11Jul2024 00:33:51.015] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 
+[12Jul2024 02:25:44.566] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 10 recipes
+[12Jul2024 02:25:44.713] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 3207 advancements
+[12Jul2024 02:25:44.787] [main/ERROR] [ava/]: Failed to sync! The server is not up yet.
+[12Jul2024 02:25:44.788] [main/INFO] [ava/]: Loading loading images on server
+[12Jul2024 02:25:44.788] [main/ERROR] [ava/]: Failed to reload loading images, maybe the server is still starting?
+[12Jul2024 02:25:46.478] [main/ERROR] [org.betterx.worlds.together.util.Logger/]: [worlds_together] Error for jar:file:///workspaces/Modgest/servidor_minecraft/mods/alexsmobs-1.22.8.jar: java.nio.file.NoSuchFileException: /fabric.mod.json
+[12Jul2024 02:25:46.481] [main/ERROR] [org.betterx.worlds.together.util.Logger/]: [worlds_together] Error for jar:file:///workspaces/Modgest/servidor_minecraft/mods/travelersbackpack-forge-1.20.1-9.1.14.jar: java.nio.file.NoSuchFileException: /fabric.mod.json
+[12Jul2024 02:25:46.483] [main/ERROR] [org.betterx.worlds.together.util.Logger/]: [worlds_together] Error for jar:file:///workspaces/Modgest/servidor_minecraft/mods/Connector-1.0.0-beta.44+1.20.1.jar: java.nio.file.NoSuchFileException: /fabric.mod.json
+[12Jul2024 02:25:46.483] [main/ERROR] [org.betterx.worlds.together.util.Logger/]: [worlds_together] Error for jar:file:///workspaces/Modgest/servidor_minecraft/mods/carryon-forge-1.20.1-2.1.2.7.jar: java.nio.file.NoSuchFileException: /fabric.mod.json
+[12Jul2024 02:25:46.484] [main/ERROR] [org.betterx.worlds.together.util.Logger/]: [worlds_together] Error for jar:file:///workspaces/Modgest/servidor_minecraft/mods/jei-1.20.1-forge-15.3.0.8.jar: java.nio.file.NoSuchFileException: /fabric.mod.json
+[12Jul2024 02:25:46.489] [main/ERROR] [org.betterx.worlds.together.util.Logger/]: [worlds_together] Error for jar:file:///workspaces/Modgest/servidor_minecraft/mods/ava-1.20.1-2.5.9.jar: java.nio.file.NoSuchFileException: /fabric.mod.json
+[12Jul2024 02:25:46.498] [main/ERROR] [org.betterx.worlds.together.util.Logger/]: [worlds_together] Error for jar:file:///workspaces/Modgest/servidor_minecraft/mods/alexscaves-1.1.4.jar: java.nio.file.NoSuchFileException: /fabric.mod.json
+[12Jul2024 02:25:46.499] [main/ERROR] [org.betterx.worlds.together.util.Logger/]: [worlds_together] Error for jar:file:///workspaces/Modgest/servidor_minecraft/mods/citadel-2.5.4-1.20.1.jar: java.nio.file.NoSuchFileException: /fabric.mod.json
+[12Jul2024 02:25:46.499] [main/ERROR] [org.betterx.worlds.together.util.Logger/]: [worlds_together] Error for jar:file:///workspaces/Modgest/servidor_minecraft/mods/toolleveling-forge-1.20.1-2.0.0.jar: java.nio.file.NoSuchFileException: /fabric.mod.json
+[12Jul2024 02:25:46.501] [main/ERROR] [org.betterx.worlds.together.util.Logger/]: [worlds_together] Error for jar:file:///workspaces/Modgest/servidor_minecraft/mods/DungeonsArise-1.20.x-2.1.58-release.jar: java.nio.file.NoSuchFileException: /fabric.mod.json
+[12Jul2024 02:25:46.501] [main/ERROR] [org.betterx.worlds.together.util.Logger/]: [worlds_together] Error for jar:file:///workspaces/Modgest/servidor_minecraft/mods/fabric-api-0.92.2+1.11.8+1.20.1.jar: java.nio.file.NoSuchFileException: /fabric.mod.json
+[12Jul2024 02:25:46.506] [main/ERROR] [org.betterx.worlds.together.util.Logger/]: [worlds_together] Error for jar:file:///workspaces/Modgest/servidor_minecraft/mods/CreativeCore_FORGE_v2.11.30_mc1.20.1.jar: java.nio.file.NoSuchFileException: /fabric.mod.json
+[12Jul2024 02:25:46.507] [main/ERROR] [org.betterx.worlds.together.util.Logger/]: [worlds_together] Error for jar:file:///workspaces/Modgest/servidor_minecraft/mods/PlayerRevive_FORGE_v2.0.25_mc1.20.1.jar: java.nio.file.NoSuchFileException: /fabric.mod.json
+[12Jul2024 02:25:46.509] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Updating Pickers for BCLib - Nether BiomeSource (2cd9aa35)
+[12Jul2024 02:25:46.526] [main/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Updating Pickers for BCLib - The End  BiomeSource (51f960af)
+[12Jul2024 02:25:46.913] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[12Jul2024 02:25:46.913] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[12Jul2024 02:25:46.913] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[12Jul2024 02:25:46.913] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[12Jul2024 02:25:47.028] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[12Jul2024 02:25:47.052] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[12Jul2024 02:25:47.130] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[12Jul2024 02:25:47.130] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[12Jul2024 02:25:47.130] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[12Jul2024 02:25:47.131] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[12Jul2024 02:25:47.141] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [betternether] Freeze Registry[ResourceKey[minecraft:root / worlds_together:worldgen/betterx/surface_rules] (Stable)]
+[12Jul2024 02:25:47.149] [Thread-2/INFO] [ava/]: Server config changed, notifying clients.
+[12Jul2024 02:25:47.157] [Thread-2/INFO] [ava/]: Server config changed, notifying clients.
+[12Jul2024 02:25:47.276] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Updating Pickers for BCLib - Nether BiomeSource (2cd9aa35)
+[12Jul2024 02:25:47.285] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Updating Pickers for BCLib - The End  BiomeSource (51f960af)
+[12Jul2024 02:25:47.288] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[12Jul2024 02:25:47.293] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 
+Apply Modifications for minecraft:overworld
+    MultiNoiseBiomeSource (19a9e0c9)
+        biomes     = 58
+        namespaces = minecraft(53), alexscaves(5)
+[12Jul2024 02:25:47.293] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 
+Apply Modifications for ava:after_place
+    MultiNoiseBiomeSource (45dfd0cf)
+        biomes     = 1
+        namespaces = minecraft(1)
+[12Jul2024 02:25:47.294] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 
+Apply Modifications for ava:southern
+    MultiNoiseBiomeSource (4528174d)
+        biomes     = 15
+        namespaces = minecraft(15)
+[12Jul2024 02:25:47.294] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 
 Apply Modifications for minecraft:the_nether
-    BCLib - Nether BiomeSource (51f960af)
+    BCLib - Nether BiomeSource (2cd9aa35)
         biomes     = 27
         namespaces = betternether(22), minecraft(5)
         seed       = 2
         height     = 128
         config     = BCLibNetherBiomeSourceConfig{mapVersion=hex, useVerticalBiomes=true, amplified=false, biomeSize=256, biomeSizeVertical=86}
-[11Jul2024 00:33:51.019] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 
-Apply Modifications for minecraft:overworld
-    MultiNoiseBiomeSource (5fbeeb1a)
-        biomes     = 58
-        namespaces = minecraft(53), alexscaves(5)
-[11Jul2024 00:33:51.020] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 
+[12Jul2024 02:25:47.296] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 
+Apply Modifications for minecraft:the_end
+    BCLib - The End  BiomeSource (51f960af)
+        biomes     = 24
+        namespaces = betterend(19), minecraft(5)
+        seed       = 2
+        height     = 128
+        deciders   = 0
+        config     = BCLEndBiomeSourceConfig{mapVersion=hex, generatorVersion=vanilla, withVoidBiomes=true, innerVoidRadiusSquared=1048576, voidBiomesSize=256, centerBiomesSize=256, landBiomesSize=256, barrensBiomesSize=256}
+[12Jul2024 02:25:47.300] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 
 Apply Modifications for ava:northern
-    MultiNoiseBiomeSource (22a6fb6e)
+    MultiNoiseBiomeSource (7ac94e72)
         biomes     = 17
         namespaces = minecraft(17)
-[11Jul2024 00:33:51.020] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 
-Apply Modifications for ava:after_place
-    MultiNoiseBiomeSource (1ff2f130)
-        biomes     = 1
-        namespaces = minecraft(1)
-[11Jul2024 00:33:51.021] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 
-Apply Modifications for ava:southern
-    MultiNoiseBiomeSource (366d81a7)
-        biomes     = 15
-        namespaces = minecraft(15)
-[11Jul2024 00:33:51.021] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] World Dimensions: 
- - minecraft:the_end: 
-     BCLib - Chunk Generator (5051902b) 
-     BCLib - The End  BiomeSource (7af8531c)
-         biomes     = 24
-         namespaces = minecraft(5), betterend(19)
-         seed       = 2
-         height     = 128
-         deciders   = 0
-         config     = BCLEndBiomeSourceConfig{mapVersion=hex, generatorVersion=vanilla, withVoidBiomes=true, innerVoidRadiusSquared=1048576, voidBiomesSize=256, centerBiomesSize=256, landBiomesSize=256, barrensBiomesSize=256}
+[12Jul2024 02:25:47.300] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] World Dimensions: 
+ - minecraft:overworld: 
+     net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator@6913c99 
+     MultiNoiseBiomeSource (19a9e0c9)
+         biomes     = 58
+         namespaces = minecraft(53), alexscaves(5)
+ - ava:after_place: 
+     net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator@11824fd0 
+     MultiNoiseBiomeSource (45dfd0cf)
+         biomes     = 1
+         namespaces = minecraft(1)
+ - ava:southern: 
+     net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator@4a528e85 
+     MultiNoiseBiomeSource (4528174d)
+         biomes     = 15
+         namespaces = minecraft(15)
  - minecraft:the_nether: 
-     BCLib - Chunk Generator (a2e2370) 
-     BCLib - Nether BiomeSource (51f960af)
+     BCLib - Chunk Generator (1fccd8b6) 
+     BCLib - Nether BiomeSource (2cd9aa35)
          biomes     = 27
          namespaces = betternether(22), minecraft(5)
          seed       = 2
          height     = 128
          config     = BCLibNetherBiomeSourceConfig{mapVersion=hex, useVerticalBiomes=true, amplified=false, biomeSize=256, biomeSizeVertical=86}
- - minecraft:overworld: 
-     net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator@6f9a7a36 
-     MultiNoiseBiomeSource (5fbeeb1a)
-         biomes     = 58
-         namespaces = minecraft(53), alexscaves(5)
+ - minecraft:the_end: 
+     BCLib - Chunk Generator (77f372ea) 
+     BCLib - The End  BiomeSource (51f960af)
+         biomes     = 24
+         namespaces = betterend(19), minecraft(5)
+         seed       = 2
+         height     = 128
+         deciders   = 0
+         config     = BCLEndBiomeSourceConfig{mapVersion=hex, generatorVersion=vanilla, withVoidBiomes=true, innerVoidRadiusSquared=1048576, voidBiomesSize=256, centerBiomesSize=256, landBiomesSize=256, barrensBiomesSize=256}
  - ava:northern: 
-     net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator@67b70b50 
-     MultiNoiseBiomeSource (22a6fb6e)
+     net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator@14f786ac 
+     MultiNoiseBiomeSource (7ac94e72)
          biomes     = 17
          namespaces = minecraft(17)
- - ava:after_place: 
-     net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator@23856332 
-     MultiNoiseBiomeSource (1ff2f130)
-         biomes     = 1
-         namespaces = minecraft(1)
- - ava:southern: 
-     net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator@69dfe1b1 
-     MultiNoiseBiomeSource (366d81a7)
-         biomes     = 15
-         namespaces = minecraft(15)
-[11Jul2024 00:33:51.025] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Merged 19 additional Surface Rules for 
-BCLib - The End  BiomeSource (7af8531c)
-    biomes     = 24
-    namespaces = minecraft(5), betterend(19)
-    seed       = 2
-    height     = 128
-    deciders   = 0
-    config     = BCLEndBiomeSourceConfig{mapVersion=hex, generatorVersion=vanilla, withVoidBiomes=true, innerVoidRadiusSquared=1048576, voidBiomesSize=256, centerBiomesSize=256, landBiomesSize=256, barrensBiomesSize=256} => 20
-[11Jul2024 00:33:51.026] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Merged 22 additional Surface Rules for 
-BCLib - Nether BiomeSource (51f960af)
+[12Jul2024 02:25:47.307] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Merged 22 additional Surface Rules for 
+BCLib - Nether BiomeSource (2cd9aa35)
     biomes     = 27
     namespaces = betternether(22), minecraft(5)
     seed       = 2
     height     = 128
     config     = BCLibNetherBiomeSourceConfig{mapVersion=hex, useVerticalBiomes=true, amplified=false, biomeSize=256, biomeSizeVertical=86} => 74
-[11Jul2024 00:34:03.182] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[11Jul2024 00:34:12.213] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[11Jul2024 00:34:12.214] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[11Jul2024 00:34:12.215] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[11Jul2024 00:34:12.216] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[11Jul2024 00:34:12.217] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[11Jul2024 00:34:12.218] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[11Jul2024 00:34:12.218] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[11Jul2024 00:34:12.219] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[11Jul2024 00:34:12.220] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[11Jul2024 00:34:12.220] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[11Jul2024 00:34:12.221] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[11Jul2024 00:34:12.222] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[11Jul2024 00:34:12.223] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[11Jul2024 00:34:12.224] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[11Jul2024 00:34:12.224] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[11Jul2024 00:34:12.225] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[11Jul2024 00:34:12.226] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[11Jul2024 00:34:12.227] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[11Jul2024 00:34:12.228] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[11Jul2024 00:34:12.684] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 31%
-[11Jul2024 00:34:13.872] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 67%
-[11Jul2024 00:34:13.872] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 67%
-[11Jul2024 00:34:14.234] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 85%
-[11Jul2024 00:34:15.025] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 96%
-[11Jul2024 00:34:15.208] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 100%
-[11Jul2024 00:34:15.691] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 100%
-[11Jul2024 00:34:15.751] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 12567 ms
-[11Jul2024 00:34:15.752] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (24.887s)! For help, type "help"
-[11Jul2024 00:34:15.804] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[11Jul2024 00:34:15.813] [Server thread/INFO] [ava/]: Loading loading images on server
-[11Jul2024 00:34:15.814] [Server thread/INFO] [ava/]: Indexing existing loading images from ./world/ava/loading_images
-[11Jul2024 00:34:15.814] [Server thread/INFO] [ava/]: Finish loading loading images on server
-[11Jul2024 00:35:03.522] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@341daf40[id=<null>,name=Kamder,properties={},legacy=false] (/127.165.46.231:53559) lost connection: Disconnected
-[11Jul2024 00:35:14.375] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class tschipp.carryon.common.carry.CarryOnDataManager
-[11Jul2024 00:35:14.464] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Kamder[/127.165.46.231:42225] logged in with entity id 217 at (277.008231334741, 118.0, -452.83102031207494)
-[11Jul2024 00:35:14.504] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [betternether] Freeze Registry[ResourceKey[minecraft:root / worlds_together:worldgen/betterx/surface_rules] (Stable)]
-[11Jul2024 00:35:14.532] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Kamder joined the game
-[11Jul2024 00:35:14.716] [Server thread/INFO] [ToolLeveling+/]: Sending config 'tool_leveling_table.json' to player 'Kamder'
-[11Jul2024 00:35:14.718] [Server thread/INFO] [ToolLeveling+/]: Loaded ForgeServerNetworkHelper for service ServerNetworkHelper
-[11Jul2024 00:35:14.718] [Server thread/INFO] [ToolLeveling+/]: Sending config 'command_config.json' to player 'Kamder'
-[11Jul2024 00:35:15.631] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Received Hello from Client. (server=3.0.14, client=3.0.14)
-[11Jul2024 00:35:15.633] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Sending Hello to Client. (server=3.0.14)
-[11Jul2024 00:35:15.637] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Listing Mod betternether v9.0.10 (size: 21.9 MiB, download=true)
-[11Jul2024 00:35:15.637] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Listing Mod bclib v3.0.14 (size: 2.2 MiB, download=true)
-[11Jul2024 00:35:15.641] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_betternether.main
-[11Jul2024 00:35:15.641] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_betternether.generator
-[11Jul2024 00:35:15.642] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_betternether.blocks
-[11Jul2024 00:35:15.643] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_betternether.items
-[11Jul2024 00:35:15.644] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_betternether.biomes
-[11Jul2024 00:35:15.644] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_betternether.mobs
-[11Jul2024 00:35:15.645] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_bclib.generator
-[11Jul2024 00:35:15.648] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_bclib.main
-[11Jul2024 00:35:15.649] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_bclib.biomes
-[11Jul2024 00:35:15.649] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_betterend.entities
-[11Jul2024 00:35:15.651] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_betterend.blocks
-[11Jul2024 00:35:15.652] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_betterend.items
-[11Jul2024 00:35:15.652] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_betterend.enchantments
-[11Jul2024 00:35:15.654] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Folder /workspaces/Modgest/servidor_minecraft/bclib-sync (allowDelete=true)
-[11Jul2024 00:37:18.226] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
-[11Jul2024 00:37:18.264] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[11Jul2024 00:37:18.265] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[11Jul2024 00:37:18.286] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Kamder lost connection: Server closed
-[11Jul2024 00:37:18.287] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Kamder left the game
-[11Jul2024 00:37:18.300] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[11Jul2024 00:37:18.620] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[11Jul2024 00:37:28.497] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[11Jul2024 00:37:28.499] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[11Jul2024 00:37:28.500] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ava:northern
-[11Jul2024 00:37:28.501] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ava:after_place
-[11Jul2024 00:37:28.502] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ava:southern
-[11Jul2024 00:37:28.605] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[11Jul2024 00:37:28.605] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[11Jul2024 00:37:28.605] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[11Jul2024 00:37:28.605] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (northern): All chunks are saved
-[11Jul2024 00:37:28.605] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (after_place): All chunks are saved
-[11Jul2024 00:37:28.606] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (southern): All chunks are saved
-[11Jul2024 00:37:28.606] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[12Jul2024 02:25:47.308] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Merged 19 additional Surface Rules for 
+BCLib - The End  BiomeSource (51f960af)
+    biomes     = 24
+    namespaces = betterend(19), minecraft(5)
+    seed       = 2
+    height     = 128
+    deciders   = 0
+    config     = BCLEndBiomeSourceConfig{mapVersion=hex, generatorVersion=vanilla, withVoidBiomes=true, innerVoidRadiusSquared=1048576, voidBiomesSize=256, centerBiomesSize=256, landBiomesSize=256, barrensBiomesSize=256} => 20
+[12Jul2024 02:25:59.464] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[12Jul2024 02:26:08.115] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Jul2024 02:26:08.116] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Jul2024 02:26:08.117] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Jul2024 02:26:08.118] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Jul2024 02:26:08.118] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Jul2024 02:26:08.119] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Jul2024 02:26:08.120] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Jul2024 02:26:08.120] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Jul2024 02:26:08.123] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Jul2024 02:26:08.124] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Jul2024 02:26:08.125] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Jul2024 02:26:08.125] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Jul2024 02:26:08.126] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Jul2024 02:26:08.127] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Jul2024 02:26:08.127] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Jul2024 02:26:08.128] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Jul2024 02:26:08.129] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Jul2024 02:26:08.130] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Jul2024 02:26:08.466] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 9%
+[12Jul2024 02:26:08.967] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 75%
+[12Jul2024 02:26:09.136] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 9670 ms
+[12Jul2024 02:26:09.138] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (21.993s)! For help, type "help"
+[12Jul2024 02:26:09.183] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[12Jul2024 02:26:09.193] [Server thread/INFO] [ava/]: Loading loading images on server
+[12Jul2024 02:26:09.194] [Server thread/INFO] [ava/]: Indexing existing loading images from ./world/ava/loading_images
+[12Jul2024 02:26:09.195] [Server thread/INFO] [ava/]: Finish loading loading images on server
+[12Jul2024 02:26:12.854] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2009ms or 40 ticks behind
+[12Jul2024 02:27:30.058] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class tschipp.carryon.common.carry.CarryOnDataManager
+[12Jul2024 02:27:30.124] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: VivaCristoLol[/127.111.236.208:36667] logged in with entity id 164 at (920.6999999880791, 63.0, -326.0184656470911)
+[12Jul2024 02:27:30.159] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [betternether] Freeze Registry[ResourceKey[minecraft:root / worlds_together:worldgen/betterx/surface_rules] (Stable)]
+[12Jul2024 02:27:30.232] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: VivaCristoLol joined the game
+[12Jul2024 02:27:30.334] [Server thread/INFO] [ToolLeveling+/]: Sending config 'tool_leveling_table.json' to player 'VivaCristoLol'
+[12Jul2024 02:27:30.337] [Server thread/INFO] [ToolLeveling+/]: Loaded ForgeServerNetworkHelper for service ServerNetworkHelper
+[12Jul2024 02:27:30.338] [Server thread/INFO] [ToolLeveling+/]: Sending config 'command_config.json' to player 'VivaCristoLol'
+[12Jul2024 02:27:31.729] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Received Hello from Client. (server=3.0.14, client=3.0.14)
+[12Jul2024 02:27:31.732] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Sending Hello to Client. (server=3.0.14)
+[12Jul2024 02:27:31.738] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Listing Mod betternether v9.0.10 (size: 21.9 MiB, download=true)
+[12Jul2024 02:27:31.739] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Listing Mod bclib v3.0.14 (size: 2.2 MiB, download=true)
+[12Jul2024 02:27:31.742] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_betternether.main
+[12Jul2024 02:27:31.742] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_betternether.generator
+[12Jul2024 02:27:31.743] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_betternether.blocks
+[12Jul2024 02:27:31.744] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_betternether.items
+[12Jul2024 02:27:31.745] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_betternether.biomes
+[12Jul2024 02:27:31.746] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_betternether.mobs
+[12Jul2024 02:27:31.746] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_bclib.generator
+[12Jul2024 02:27:31.747] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_bclib.main
+[12Jul2024 02:27:31.748] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_bclib.biomes
+[12Jul2024 02:27:31.749] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_betterend.entities
+[12Jul2024 02:27:31.752] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_betterend.blocks
+[12Jul2024 02:27:31.752] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_betterend.items
+[12Jul2024 02:27:31.753] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_betterend.enchantments
+[12Jul2024 02:27:31.755] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Folder /workspaces/Modgest/servidor_minecraft/bclib-sync (allowDelete=true)
+[12Jul2024 02:27:33.404] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2008ms or 40 ticks behind
+[12Jul2024 02:31:49.212] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Leatherworker'/219, l='ServerLevel[world]', x=962.56, y=-128.08, z=-336.55] died, message: 'Leatherworker fell out of the world'
+[12Jul2024 02:35:16.002] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/207, l='ServerLevel[world]', x=932.73, y=-128.08, z=-315.79] died, message: 'Villager fell out of the world'
+[12Jul2024 02:35:27.304] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/205, l='ServerLevel[world]', x=918.78, y=-128.08, z=-328.33] died, message: 'Villager fell out of the world'
+[12Jul2024 02:35:31.100] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/178, l='ServerLevel[world]', x=918.51, y=-128.08, z=-329.49] died, message: 'Villager fell out of the world'
+[12Jul2024 02:36:56.989] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Kamder[/127.165.46.231:56375] logged in with entity id 2372 at (1790.7809410807063, 63.0, -1586.5706950688902)
+[12Jul2024 02:36:56.995] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [betternether] Freeze Registry[ResourceKey[minecraft:root / worlds_together:worldgen/betterx/surface_rules] (Stable)]
+[12Jul2024 02:36:57.024] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Kamder joined the game
+[12Jul2024 02:36:57.076] [Server thread/INFO] [ToolLeveling+/]: Sending config 'tool_leveling_table.json' to player 'Kamder'
+[12Jul2024 02:36:57.077] [Server thread/INFO] [ToolLeveling+/]: Sending config 'command_config.json' to player 'Kamder'
+[12Jul2024 02:36:58.201] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Received Hello from Client. (server=3.0.14, client=3.0.14)
+[12Jul2024 02:36:58.202] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Sending Hello to Client. (server=3.0.14)
+[12Jul2024 02:36:58.203] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Listing Mod betternether v9.0.10 (size: 21.9 MiB, download=true)
+[12Jul2024 02:36:58.203] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Listing Mod bclib v3.0.14 (size: 2.2 MiB, download=true)
+[12Jul2024 02:36:58.204] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_betternether.main
+[12Jul2024 02:36:58.204] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_betternether.generator
+[12Jul2024 02:36:58.204] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_betternether.blocks
+[12Jul2024 02:36:58.204] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_betternether.items
+[12Jul2024 02:36:58.205] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_betternether.biomes
+[12Jul2024 02:36:58.205] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_betternether.mobs
+[12Jul2024 02:36:58.206] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_bclib.generator
+[12Jul2024 02:36:58.206] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_bclib.main
+[12Jul2024 02:36:58.207] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_bclib.biomes
+[12Jul2024 02:36:58.207] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_betterend.entities
+[12Jul2024 02:36:58.207] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_betterend.blocks
+[12Jul2024 02:36:58.208] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_betterend.items
+[12Jul2024 02:36:58.209] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_betterend.enchantments
+[12Jul2024 02:36:58.210] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Folder /workspaces/Modgest/servidor_minecraft/bclib-sync (allowDelete=true)
+[12Jul2024 02:37:14.188] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Kamder> wenas
+[12Jul2024 02:37:17.287] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <VivaCristoLol> oa
+[12Jul2024 02:38:37.767] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Kamder> xd
+[12Jul2024 02:38:43.930] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Kamder> una mejora de oro pa la mochila
+[12Jul2024 02:38:47.729] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Kamder> en un barco
+[12Jul2024 02:38:51.972] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <VivaCristoLol> ontas?
+[12Jul2024 02:38:52.684] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <VivaCristoLol> xd
+[12Jul2024 02:38:58.029] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Kamder> la loma del orto
+[12Jul2024 02:39:04.410] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Kamder> 1850 -1685
+[12Jul2024 02:39:05.965] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <VivaCristoLol> tabueno
+[12Jul2024 02:39:07.412] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Kamder> llendo hacia el norte
+[12Jul2024 02:39:12.533] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <VivaCristoLol> aaaa
+[12Jul2024 02:39:14.821] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <VivaCristoLol> yo igual
+[12Jul2024 02:39:20.027] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Kamder> xd
+[12Jul2024 02:39:23.986] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <VivaCristoLol> toi yendo contrariop
+[12Jul2024 02:39:25.465] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <VivaCristoLol> al sur
+[12Jul2024 02:39:28.514] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Kamder> jsjs
+[12Jul2024 02:39:29.532] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <VivaCristoLol> aver si encuentro dungeon
+[12Jul2024 02:39:35.329] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Kamder> yo aldea en planicie
+[12Jul2024 02:39:41.386] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <VivaCristoLol> q ricooo
+[12Jul2024 02:39:48.789] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Kamder> ush otra aldea
+[12Jul2024 02:39:50.556] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <VivaCristoLol> encuentro algo de obsi y voy para asha
+[12Jul2024 02:40:00.438] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Kamder> pero ps es bioma de ñieve
+[12Jul2024 02:40:19.284] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <VivaCristoLol> yo creo q
+[12Jul2024 02:40:26.669] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <VivaCristoLol> acaconvendria mucho el xaeros minimap
+[12Jul2024 02:40:37.580] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Kamder> ?
+[12Jul2024 02:40:39.384] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Kamder> que e eso
+[12Jul2024 02:40:43.395] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <VivaCristoLol> el minimapa
+[12Jul2024 02:40:48.635] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <VivaCristoLol> hay mod de minimapa
+[12Jul2024 02:40:49.633] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <VivaCristoLol> xd
+[12Jul2024 02:40:53.723] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Kamder> a
+[12Jul2024 02:41:08.400] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <VivaCristoLol> no lo puse pq ps pa explorar
+[12Jul2024 02:41:28.274] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Kamder> otra base
+[12Jul2024 02:41:31.501] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Kamder> de esas con municiones
+[12Jul2024 02:41:34.947] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <VivaCristoLol> alaa
+[12Jul2024 02:42:08.812] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <VivaCristoLol> dungeon
+[12Jul2024 02:42:16.593] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <VivaCristoLol> ano
+[12Jul2024 02:42:20.930] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <VivaCristoLol> volvi al spawn
+[12Jul2024 02:42:24.264] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <VivaCristoLol> jodel
+[12Jul2024 02:42:59.829] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Kamder> mano que tan grande es el pto bioma de nieve nmms
+[12Jul2024 02:43:06.419] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Kamder> ostia
+[12Jul2024 02:43:07.378] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Kamder> armas
+[12Jul2024 02:43:07.973] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <VivaCristoLol> duerme
+[12Jul2024 02:43:41.685] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Kamder> watafac
+[12Jul2024 02:43:44.462] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Kamder> bloques de diamante
+[12Jul2024 02:43:50.314] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <VivaCristoLol> wtafak
+[12Jul2024 02:44:16.275] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Kamder> como se recargan las armas . _.
+[12Jul2024 02:44:22.739] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <VivaCristoLol> con la r
+[12Jul2024 02:44:30.516] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <VivaCristoLol> algunos no son sus balas
+[12Jul2024 02:44:30.889] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Kamder> ush
+[12Jul2024 02:44:31.417] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <VivaCristoLol> xd
+[12Jul2024 02:44:41.790] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Kamder> no tengo weas de estas pistolas
+[12Jul2024 02:44:57.343] [Worker-Main-9/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-320, y=-45, z=-203}
+[12Jul2024 02:44:57.479] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-318, y=-45, z=-204}
+[12Jul2024 02:44:57.480] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-318, y=-45, z=-202}
+[12Jul2024 02:45:38.888] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <VivaCristoLol> dungeon
+[12Jul2024 02:45:42.020] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <VivaCristoLol> aaa
+[12Jul2024 02:45:44.339] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <VivaCristoLol> mira vo
+[12Jul2024 02:45:50.393] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <VivaCristoLol> te acuerdas
+[12Jul2024 02:45:55.550] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <VivaCristoLol> la primera ves q jugamos
+[12Jul2024 02:45:57.899] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <VivaCristoLol> encontramos
+[12Jul2024 02:46:02.773] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Kamder> la dungeon de aldeanos?
+[12Jul2024 02:46:03.757] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <VivaCristoLol> una dungeon como casa china
+[12Jul2024 02:46:09.956] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <VivaCristoLol> de eskeletos
+[12Jul2024 02:46:12.664] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Kamder> AA
+[12Jul2024 02:46:13.973] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Kamder> xd
+[12Jul2024 02:46:27.757] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Kamder> llegue al final del bioma de nieve
+[12Jul2024 02:46:28.184] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <VivaCristoLol> -393 88
+[12Jul2024 02:46:33.437] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Kamder> ahora toca seguir buscando
+[12Jul2024 02:46:38.750] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Kamder> toy re lejos mano
+[12Jul2024 02:46:44.636] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <VivaCristoLol> uy gooodd
+[12Jul2024 02:46:48.994] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <VivaCristoLol> esta en bioma de planicie
+[12Jul2024 02:46:51.445] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <VivaCristoLol> retocho
+[12Jul2024 02:46:55.568] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Kamder> ._.xd
+[12Jul2024 02:46:57.218] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <VivaCristoLol> osea aldea
+[12Jul2024 02:46:58.382] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <VivaCristoLol> xdxd
+[12Jul2024 02:47:10.882] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Kamder> tremendo
+[12Jul2024 02:48:07.679] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <VivaCristoLol> esta medio watafa
+[12Jul2024 02:48:10.883] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <VivaCristoLol> esta tiene mina xd
+[12Jul2024 02:48:14.592] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Kamder> xd
+[12Jul2024 02:48:15.387] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <VivaCristoLol> ano
+[12Jul2024 02:48:19.551] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <VivaCristoLol> tiene un portal al nether
+[12Jul2024 02:48:20.536] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <VivaCristoLol> xdd
+[12Jul2024 02:48:42.590] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <VivaCristoLol> falsa alarma
+[12Jul2024 02:48:48.265] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <VivaCristoLol> era un horno
+[12Jul2024 02:49:05.994] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Kamder> ostia una ballena
+[12Jul2024 02:49:09.552] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Kamder> es enorme
+[12Jul2024 02:49:57.085] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Kamder> irmao q mrd de seed xd
+[12Jul2024 02:50:49.327] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2682ms or 53 ticks behind
+[12Jul2024 02:51:49.724] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Kamder> ostia una aldea
+[12Jul2024 02:52:08.950] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Kamder> y dungeon
+[12Jul2024 02:52:13.458] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Kamder> una torre
+[12Jul2024 02:52:13.877] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <VivaCristoLol> alaaa
+[12Jul2024 02:52:15.957] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <VivaCristoLol> alaaa
+[12Jul2024 02:52:18.946] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <VivaCristoLol> cap
+[12Jul2024 02:52:21.063] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <VivaCristoLol> cap x cap
+[12Jul2024 02:55:36.904] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2008ms or 40 ticks behind
+[12Jul2024 02:56:10.284] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/20109, l='ServerLevel[world]', x=-430.67, y=-128.08, z=210.08] died, message: 'Villager fell out of the world'
+[12Jul2024 02:58:49.966] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Kamder has made the advancement [Mine? Mine? Mine?]
+[12Jul2024 02:59:38.196] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [VivaCristoLol: Gave 23 [Iron Ingot] to VivaCristoLol]
+[12Jul2024 03:04:07.590] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [VivaCristoLol: Set own game mode to Creative Mode]
+[12Jul2024 03:04:11.481] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: VivaCristoLol lost connection: Disconnected
+[12Jul2024 03:04:11.481] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: VivaCristoLol left the game
+[12Jul2024 03:05:10.406] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Kamder lost connection: Disconnected
+[12Jul2024 03:05:10.407] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Kamder left the game
+[12Jul2024 03:05:27.044] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: VivaCristoLol[/127.111.236.208:49749] logged in with entity id 24834 at (-383.9345997768391, 70.0, 203.35837130284511)
+[12Jul2024 03:05:27.057] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [betternether] Freeze Registry[ResourceKey[minecraft:root / worlds_together:worldgen/betterx/surface_rules] (Stable)]
+[12Jul2024 03:05:27.114] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: VivaCristoLol joined the game
+[12Jul2024 03:05:27.138] [Server thread/INFO] [ToolLeveling+/]: Sending config 'tool_leveling_table.json' to player 'VivaCristoLol'
+[12Jul2024 03:05:27.139] [Server thread/INFO] [ToolLeveling+/]: Sending config 'command_config.json' to player 'VivaCristoLol'
+[12Jul2024 03:05:27.670] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Received Hello from Client. (server=3.0.14, client=3.0.14)
+[12Jul2024 03:05:27.671] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Sending Hello to Client. (server=3.0.14)
+[12Jul2024 03:05:27.673] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Listing Mod betternether v9.0.10 (size: 21.9 MiB, download=true)
+[12Jul2024 03:05:27.673] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Listing Mod bclib v3.0.14 (size: 2.2 MiB, download=true)
+[12Jul2024 03:05:27.673] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_betternether.main
+[12Jul2024 03:05:27.673] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_betternether.generator
+[12Jul2024 03:05:27.674] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_betternether.blocks
+[12Jul2024 03:05:27.674] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_betternether.items
+[12Jul2024 03:05:27.674] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_betternether.biomes
+[12Jul2024 03:05:27.674] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_betternether.mobs
+[12Jul2024 03:05:27.674] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_bclib.generator
+[12Jul2024 03:05:27.675] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_bclib.main
+[12Jul2024 03:05:27.675] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_bclib.biomes
+[12Jul2024 03:05:27.675] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_betterend.entities
+[12Jul2024 03:05:27.675] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_betterend.blocks
+[12Jul2024 03:05:27.675] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_betterend.items
+[12Jul2024 03:05:27.675] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_betterend.enchantments
+[12Jul2024 03:05:27.676] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Folder /workspaces/Modgest/servidor_minecraft/bclib-sync (allowDelete=true)
+[12Jul2024 03:05:29.953] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@23522c37[id=<null>,name=Kamder,properties={},legacy=false] (/127.165.46.231:45361) lost connection: Disconnected
