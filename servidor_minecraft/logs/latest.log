@@ -1593,3 +1593,16 @@ BCLib - Nether BiomeSource (5cc0b8df)
 [13Jul2024 19:08:55.862] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Kamder> me faltan aldeanos
 [13Jul2024 19:08:55.863] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <VivaCristoLol> qfue
 [13Jul2024 19:09:06.224] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <VivaCristoLol> q
+[13Jul2024 19:10:59.069] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Kamder moved too quickly! 0.0314769833896662,2.176759275064242,10.049996628729787
+[13Jul2024 19:10:59.505] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2013ms or 40 ticks behind
+[13Jul2024 19:11:33.195] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [VivaCristoLol: Applied effect Night Vision to VivaCristoLol]
+[13Jul2024 19:12:21.976] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [VivaCristoLol: Gave 1 [Cave Compendium] to VivaCristoLol]
+[13Jul2024 19:12:41.676] [Worker-Main-30/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-361, y=-58, z=-502}
+[13Jul2024 19:12:41.733] [Worker-Main-30/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-359, y=-58, z=-502}
+[13Jul2024 19:12:41.737] [Worker-Main-30/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-403, y=-58, z=-503}
+[13Jul2024 19:12:41.737] [Worker-Main-30/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=-403, y=-58, z=-503}
+[13Jul2024 19:15:36.973] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: VivaCristoLol has made the advancement [Worthless]
+[13Jul2024 19:18:11.316] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Kamder> duelme
+[13Jul2024 19:18:48.069] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [VivaCristoLol: Set own game mode to Spectator Mode]
+[13Jul2024 19:20:14.879] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [VivaCristoLol: Set own game mode to Survival Mode]
+[13Jul2024 19:21:35.677] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2035ms or 40 ticks behind
