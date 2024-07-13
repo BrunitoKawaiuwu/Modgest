@@ -1551,3 +1551,45 @@ BCLib - Nether BiomeSource (5cc0b8df)
 [13Jul2024 18:38:13.842] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_betterend.items
 [13Jul2024 18:38:13.842] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_betterend.enchantments
 [13Jul2024 18:38:13.843] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Folder /workspaces/Modgest/servidor_minecraft/bclib-sync (allowDelete=true)
+[13Jul2024 18:56:54.949] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [VivaCristoLol: Gave 300 [Emerald] to VivaCristoLol]
+[13Jul2024 18:57:03.260] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [VivaCristoLol: Gave 50 [Book] to VivaCristoLol]
+[13Jul2024 18:57:47.591] [Server thread/INFO] [ToolLeveling+/]: TableUpgradeProcess failed 0.75 0.9596255
+[13Jul2024 18:58:10.913] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [VivaCristoLol: Gave 300 [Emerald] to VivaCristoLol]
+[13Jul2024 18:59:19.309] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [VivaCristoLol: Gave 500 [Stick] to VivaCristoLol]
+[13Jul2024 18:59:32.127] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [VivaCristoLol: Gave 6400 [Stick] to VivaCristoLol]
+[13Jul2024 18:59:46.025] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Kamder[/127.165.46.231:56699] logged in with entity id 3598 at (1791.5, 70.0, -4282.5)
+[13Jul2024 18:59:46.038] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [betternether] Freeze Registry[ResourceKey[minecraft:root / worlds_together:worldgen/betterx/surface_rules] (Stable)]
+[13Jul2024 18:59:46.063] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Kamder joined the game
+[13Jul2024 18:59:46.074] [Server thread/INFO] [ToolLeveling+/]: Sending config 'tool_leveling_table.json' to player 'Kamder'
+[13Jul2024 18:59:46.075] [Server thread/INFO] [ToolLeveling+/]: Sending config 'command_config.json' to player 'Kamder'
+[13Jul2024 18:59:47.756] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Received Hello from Client. (server=3.0.14, client=3.0.14)
+[13Jul2024 18:59:47.757] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Sending Hello to Client. (server=3.0.14)
+[13Jul2024 18:59:47.758] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Listing Mod betternether v9.0.10 (size: 21.9 MiB, download=true)
+[13Jul2024 18:59:47.759] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Listing Mod bclib v3.0.14 (size: 2.2 MiB, download=true)
+[13Jul2024 18:59:47.760] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_betternether.main
+[13Jul2024 18:59:47.761] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_betternether.generator
+[13Jul2024 18:59:47.762] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_betternether.blocks
+[13Jul2024 18:59:47.764] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_betternether.items
+[13Jul2024 18:59:47.764] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_betternether.biomes
+[13Jul2024 18:59:47.764] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_betternether.mobs
+[13Jul2024 18:59:47.765] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_bclib.generator
+[13Jul2024 18:59:47.765] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_bclib.main
+[13Jul2024 18:59:47.766] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_bclib.biomes
+[13Jul2024 18:59:47.766] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_betterend.entities
+[13Jul2024 18:59:47.766] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_betterend.blocks
+[13Jul2024 18:59:47.768] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_betterend.items
+[13Jul2024 18:59:47.768] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_betterend.enchantments
+[13Jul2024 18:59:47.769] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Folder /workspaces/Modgest/servidor_minecraft/bclib-sync (allowDelete=true)
+[13Jul2024 19:00:49.632] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Kamder> wenaa
+[13Jul2024 19:00:52.269] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Kamder> ahora si ya llegue xd
+[13Jul2024 19:01:08.377] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <VivaCristoLol> ya dejo de escuchar los cumbiones tu papa no?
+[13Jul2024 19:01:09.383] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <VivaCristoLol> xdxd
+[13Jul2024 19:01:33.872] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Kamder> estaba descargando musica ._.xd
+[13Jul2024 19:01:42.817] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <VivaCristoLol> xDD
+[13Jul2024 19:02:36.490] [Server thread/INFO] [ToolLeveling+/]: TableUpgradeProcess failed 0.75 0.8480492
+[13Jul2024 19:03:16.275] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <VivaCristoLol> gg viruzz
+[13Jul2024 19:03:28.221] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Kamder> q fue en la velada
+[13Jul2024 19:08:52.884] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Kamder> aiwei
+[13Jul2024 19:08:55.862] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Kamder> me faltan aldeanos
+[13Jul2024 19:08:55.863] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <VivaCristoLol> qfue
+[13Jul2024 19:09:06.224] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <VivaCristoLol> q
