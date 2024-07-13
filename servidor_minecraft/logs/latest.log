@@ -1454,3 +1454,30 @@ BCLib - The End  BiomeSource (78dadf35)
 [13Jul2024 00:20:28.102] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Librarian'/4545, l='ServerLevel[world]', x=-454.69, y=66.00, z=216.51] died, message: 'Librarian was slain by VivaCristoLol using [anticalacas]'
 [13Jul2024 00:20:39.457] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Kamder> que bueno que mencionaste el tool
 [13Jul2024 00:20:43.297] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <VivaCristoLol> tengo fortuna 3
+[13Jul2024 00:20:47.965] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <VivaCristoLol> a 12 gemas
+[13Jul2024 00:20:48.098] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Kamder> pq no me e hecho una mesa de esas
+[13Jul2024 00:20:49.905] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Kamder> xd
+[13Jul2024 00:24:38.271] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <VivaCristoLol> espera
+[13Jul2024 00:24:51.264] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <VivaCristoLol> duerme
+[13Jul2024 00:27:40.207] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [VivaCristoLol: Gave 1 [Anvil] to VivaCristoLol]
+[13Jul2024 00:27:48.361] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Kamder> conectaste los portales del nether?
+[13Jul2024 00:27:53.599] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <VivaCristoLol> si
+[13Jul2024 00:27:55.847] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Kamder> ok
+[13Jul2024 00:27:57.516] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Kamder> orita voy xd
+[13Jul2024 00:27:59.322] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Kamder> quiero libros
+[13Jul2024 00:27:59.612] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <VivaCristoLol> hay un camino ahi
+[13Jul2024 00:29:05.424] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <VivaCristoLol> hay repa 18 gems
+[13Jul2024 00:29:07.847] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <VivaCristoLol> si kieres
+[13Jul2024 00:29:11.314] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Kamder> messirve
+[13Jul2024 00:29:21.898] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <VivaCristoLol> efi 1 a 5 gemas
+[13Jul2024 00:29:25.794] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <VivaCristoLol> para tu pcio
+[13Jul2024 00:29:27.675] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <VivaCristoLol> o hacha
+[13Jul2024 00:29:35.544] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <VivaCristoLol> fortuna 3 a 12 gemas igual xd
+[13Jul2024 00:29:48.049] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <VivaCristoLol> y prote 2 10 gemas
+[13Jul2024 00:30:29.986] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-369, y=72, z=199} BlockPos{x=-369, y=71, z=197}
+[13Jul2024 00:30:30.061] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-370, y=71, z=199} BlockPos{x=-369, y=71, z=197}
+[13Jul2024 00:30:30.061] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-370, y=71, z=198} BlockPos{x=-369, y=71, z=197}
+[13Jul2024 00:30:31.652] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-370, y=71, z=196} BlockPos{x=-369, y=72, z=197}
+[13Jul2024 00:30:31.702] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-370, y=71, z=195} BlockPos{x=-369, y=72, z=197}
+[13Jul2024 00:30:31.752] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-369, y=71, z=196} BlockPos{x=-369, y=72, z=197}
+[13Jul2024 00:30:31.850] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-369, y=71, z=195} BlockPos{x=-369, y=72, z=197}
