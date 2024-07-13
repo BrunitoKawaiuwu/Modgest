@@ -2208,3 +2208,260 @@ BCLib - The End  BiomeSource (78dadf35)
 [13Jul2024 02:45:16.990] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <VivaCristoLol> a
 [13Jul2024 02:45:22.648] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [VivaCristoLol: Set Kamder's game mode to Survival Mode]
 [13Jul2024 02:45:27.387] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <VivaCristoLol> iata
+[13Jul2024 02:46:31.501] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Kamder> ush perdi mi pico y mi pala
+[13Jul2024 02:46:33.074] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Kamder> ni modo xd
+[13Jul2024 02:46:37.172] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Kamder> pero yo me largo de aka
+[13Jul2024 02:46:42.855] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <VivaCristoLol> tas en tu base?
+[13Jul2024 02:46:43.649] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <VivaCristoLol> xd
+[13Jul2024 02:46:44.042] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Kamder> ches tigres están ops los hptas
+[13Jul2024 02:47:03.910] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Kamder> se te lanzan los cabrones
+[13Jul2024 02:47:13.477] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Kamder> tienen un rugido q hace daño
+[13Jul2024 02:47:20.558] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <VivaCristoLol> yo me quiero tirar uno
+[13Jul2024 02:47:22.506] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Kamder> y aparte parece que tienen orbita los cabrones
+[13Jul2024 02:47:36.730] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Kamder> me la pasaba volando hacia el tigre
+[13Jul2024 02:47:57.099] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Kamder> creo q mandaron a mi mapache al gulag ;[
+[13Jul2024 02:48:29.814] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <VivaCristoLol> aaa
+[13Jul2024 02:48:32.148] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: VivaCristoLol lost connection: Timed out
+[13Jul2024 02:48:32.148] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: VivaCristoLol left the game
+[13Jul2024 02:49:18.783] [Server thread/ERROR] [net.minecraft.Util/]: onTrackingStart called during navigation iteration
+java.lang.IllegalStateException: onTrackingStart called during navigation iteration
+	at net.minecraft.server.level.ServerLevel$EntityCallbacks.m_141985_(ServerLevel.java:1514) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
+	at net.minecraft.server.level.ServerLevel$EntityCallbacks.m_141985_(ServerLevel.java:1488) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
+	at net.minecraft.world.level.entity.PersistentEntitySectionManager.m_157575_(PersistentEntitySectionManager.java:136) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184) ~[?:?]
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179) ~[?:?]
+	at java.util.Iterator.forEachRemaining(Iterator.java:133) ~[?:?]
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1939) ~[?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596) ~[?:?]
+	at net.minecraft.world.level.entity.PersistentEntitySectionManager.m_157543_(PersistentEntitySectionManager.java:179) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184) ~[?:?]
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179) ~[?:?]
+	at java.util.stream.LongPipeline$1$1.accept(LongPipeline.java:177) ~[?:?]
+	at java.util.PrimitiveIterator$OfLong.forEachRemaining(PrimitiveIterator.java:185) ~[?:?]
+	at java.util.Spliterators$LongIteratorSpliterator.forEachRemaining(Spliterators.java:2144) ~[?:?]
+	at java.util.Spliterator$OfLong.forEachRemaining(Spliterator.java:777) ~[?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596) ~[?:?]
+	at net.minecraft.world.level.entity.PersistentEntitySectionManager.m_157527_(PersistentEntitySectionManager.java:160) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
+	at net.minecraft.world.level.entity.PersistentEntitySectionManager.m_287207_(PersistentEntitySectionManager.java:146) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
+	at net.minecraft.server.level.ChunkMap.m_287285_(ChunkMap.java:1307) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
+	at net.minecraft.server.level.ChunkHolder.m_287043_(ChunkHolder.java:334) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
+	at java.util.concurrent.CompletableFuture$UniRun.tryFire(CompletableFuture.java:787) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
+	at net.minecraft.server.level.ServerChunkCache$MainThreadExecutor.m_6367_(ServerChunkCache.java:541) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
+	at net.minecraft.server.level.ServerChunkCache$MainThreadExecutor.m_7245_(ServerChunkCache.java:549) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
+	at net.minecraft.server.level.ServerChunkCache.m_7587_(ServerChunkCache.java:131) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
+	at net.minecraft.world.level.Level.m_6522_(Level.java:187) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
+	at net.minecraft.world.level.LevelReader.m_46819_(LevelReader.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
+	at net.minecraft.world.level.Level.m_6325_(Level.java:182) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
+	at net.minecraft.world.level.Level.m_8055_(Level.java:355) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
+	at net.minecraft.world.entity.ai.navigation.GroundPathNavigation.m_7864_(GroundPathNavigation.java:43) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
+	at net.minecraft.world.entity.ai.navigation.PathNavigation.m_26569_(PathNavigation.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
+	at net.minecraft.server.level.ServerLevel.m_7260_(ServerLevel.java:965) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
+	at net.minecraft.world.level.Level.markAndNotifyBlock(Level.java:247) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
+	at net.minecraft.world.level.Level.m_6933_(Level.java:227) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
+	at net.minecraft.world.level.Level.m_7731_(Level.java:196) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
+	at net.minecraft.world.level.block.DoorBlock.m_153165_(DoorBlock.java:214) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
+	at net.minecraft.world.entity.ai.behavior.InteractWithDoor.m_257204_(InteractWithDoor.java:76) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
+	at net.minecraft.world.entity.ai.behavior.declarative.BehaviorBuilder$1.m_257808_(BehaviorBuilder.java:53) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
+	at net.minecraft.world.entity.ai.behavior.OneShot.m_22554_(OneShot.java:20) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
+	at net.minecraft.world.entity.ai.Brain.m_21957_(Brain.java:432) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
+	at net.minecraft.world.entity.ai.Brain.m_21865_(Brain.java:389) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
+	at net.minecraft.world.entity.npc.Villager.m_8024_(Villager.java:209) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
+	at net.minecraft.world.entity.Mob.m_6140_(Mob.java:768) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
+	at net.minecraft.world.entity.LivingEntity.m_8107_(LivingEntity.java:2548) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
+	at net.minecraft.world.entity.Mob.m_8107_(Mob.java:536) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
+	at net.minecraft.world.entity.AgeableMob.m_8107_(AgeableMob.java:128) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
+	at net.minecraft.world.entity.LivingEntity.m_8119_(LivingEntity.java:2298) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
+	at net.minecraft.world.entity.Mob.m_8119_(Mob.java:337) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
+	at net.minecraft.world.entity.npc.Villager.m_8119_(Villager.java:248) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
+	at net.minecraft.server.level.ServerLevel.m_8647_(ServerLevel.java:693) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
+	at net.minecraft.world.level.Level.m_46653_(Level.java:479) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
+	at net.minecraft.server.level.ServerLevel.m_184063_(ServerLevel.java:343) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
+	at net.minecraft.world.level.entity.EntityTickList.m_156910_(EntityTickList.java:54) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
+	at net.minecraft.server.level.ServerLevel.m_8793_(ServerLevel.java:323) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
+	at net.minecraft.server.MinecraftServer.m_5703_(MinecraftServer.java:893) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
+	at net.minecraft.server.dedicated.DedicatedServer.m_5703_(DedicatedServer.java:283) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
+	at net.minecraft.server.MinecraftServer.m_5705_(MinecraftServer.java:814) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:661) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[13Jul2024 02:49:18.790] [Server thread/ERROR] [net.minecraft.Util/]: onTrackingStart called during navigation iteration
+java.lang.IllegalStateException: onTrackingStart called during navigation iteration
+	at net.minecraft.server.level.ServerLevel$EntityCallbacks.m_141985_(ServerLevel.java:1514) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
+	at net.minecraft.server.level.ServerLevel$EntityCallbacks.m_141985_(ServerLevel.java:1488) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
+	at net.minecraft.world.level.entity.PersistentEntitySectionManager.m_157575_(PersistentEntitySectionManager.java:136) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184) ~[?:?]
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179) ~[?:?]
+	at java.util.Iterator.forEachRemaining(Iterator.java:133) ~[?:?]
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1939) ~[?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596) ~[?:?]
+	at net.minecraft.world.level.entity.PersistentEntitySectionManager.m_157543_(PersistentEntitySectionManager.java:179) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:184) ~[?:?]
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179) ~[?:?]
+	at java.util.stream.LongPipeline$1$1.accept(LongPipeline.java:177) ~[?:?]
+	at java.util.PrimitiveIterator$OfLong.forEachRemaining(PrimitiveIterator.java:185) ~[?:?]
+	at java.util.Spliterators$LongIteratorSpliterator.forEachRemaining(Spliterators.java:2144) ~[?:?]
+	at java.util.Spliterator$OfLong.forEachRemaining(Spliterator.java:777) ~[?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151) ~[?:?]
+	at java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596) ~[?:?]
+	at net.minecraft.world.level.entity.PersistentEntitySectionManager.m_157527_(PersistentEntitySectionManager.java:160) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
+	at net.minecraft.world.level.entity.PersistentEntitySectionManager.m_287207_(PersistentEntitySectionManager.java:146) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
+	at net.minecraft.server.level.ChunkMap.m_287285_(ChunkMap.java:1307) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
+	at net.minecraft.server.level.ChunkHolder.m_287043_(ChunkHolder.java:334) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
+	at java.util.concurrent.CompletableFuture$UniRun.tryFire(CompletableFuture.java:787) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
+	at net.minecraft.server.level.ServerChunkCache$MainThreadExecutor.m_6367_(ServerChunkCache.java:541) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
+	at net.minecraft.server.level.ServerChunkCache$MainThreadExecutor.m_7245_(ServerChunkCache.java:549) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
+	at net.minecraft.server.level.ServerChunkCache.m_7587_(ServerChunkCache.java:131) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
+	at net.minecraft.world.level.Level.m_6522_(Level.java:187) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
+	at net.minecraft.world.level.LevelReader.m_46819_(LevelReader.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
+	at net.minecraft.world.level.Level.m_6325_(Level.java:182) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
+	at net.minecraft.world.level.Level.m_8055_(Level.java:355) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
+	at net.minecraft.world.entity.ai.navigation.GroundPathNavigation.m_7864_(GroundPathNavigation.java:43) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
+	at net.minecraft.world.entity.ai.navigation.PathNavigation.m_26569_(PathNavigation.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
+	at net.minecraft.server.level.ServerLevel.m_7260_(ServerLevel.java:965) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
+	at net.minecraft.world.level.Level.markAndNotifyBlock(Level.java:247) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
+	at net.minecraft.world.level.Level.m_6933_(Level.java:227) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
+	at net.minecraft.world.level.Level.m_7731_(Level.java:196) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
+	at net.minecraft.world.level.block.DoorBlock.m_153165_(DoorBlock.java:214) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
+	at net.minecraft.world.entity.ai.behavior.InteractWithDoor.m_257204_(InteractWithDoor.java:76) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
+	at net.minecraft.world.entity.ai.behavior.declarative.BehaviorBuilder$1.m_257808_(BehaviorBuilder.java:53) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
+	at net.minecraft.world.entity.ai.behavior.OneShot.m_22554_(OneShot.java:20) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
+	at net.minecraft.world.entity.ai.Brain.m_21957_(Brain.java:432) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
+	at net.minecraft.world.entity.ai.Brain.m_21865_(Brain.java:389) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
+	at net.minecraft.world.entity.npc.Villager.m_8024_(Villager.java:209) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
+	at net.minecraft.world.entity.Mob.m_6140_(Mob.java:768) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
+	at net.minecraft.world.entity.LivingEntity.m_8107_(LivingEntity.java:2548) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
+	at net.minecraft.world.entity.Mob.m_8107_(Mob.java:536) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
+	at net.minecraft.world.entity.AgeableMob.m_8107_(AgeableMob.java:128) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
+	at net.minecraft.world.entity.LivingEntity.m_8119_(LivingEntity.java:2298) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
+	at net.minecraft.world.entity.Mob.m_8119_(Mob.java:337) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
+	at net.minecraft.world.entity.npc.Villager.m_8119_(Villager.java:248) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
+	at net.minecraft.server.level.ServerLevel.m_8647_(ServerLevel.java:693) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
+	at net.minecraft.world.level.Level.m_46653_(Level.java:479) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
+	at net.minecraft.server.level.ServerLevel.m_184063_(ServerLevel.java:343) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
+	at net.minecraft.world.level.entity.EntityTickList.m_156910_(EntityTickList.java:54) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
+	at net.minecraft.server.level.ServerLevel.m_8793_(ServerLevel.java:323) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
+	at net.minecraft.server.MinecraftServer.m_5703_(MinecraftServer.java:893) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
+	at net.minecraft.server.dedicated.DedicatedServer.m_5703_(DedicatedServer.java:283) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
+	at net.minecraft.server.MinecraftServer.m_5705_(MinecraftServer.java:814) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:661) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23143!/:?]
+	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[13Jul2024 02:50:15.353] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: VivaCristoLol[/127.111.236.208:54913] logged in with entity id 92920 at (-7068.962288936406, 70.0, 45.553087277632116)
+[13Jul2024 02:50:15.356] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [betternether] Freeze Registry[ResourceKey[minecraft:root / worlds_together:worldgen/betterx/surface_rules] (Stable)]
+[13Jul2024 02:50:15.364] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: VivaCristoLol joined the game
+[13Jul2024 02:50:15.377] [Server thread/INFO] [ToolLeveling+/]: Sending config 'tool_leveling_table.json' to player 'VivaCristoLol'
+[13Jul2024 02:50:15.377] [Server thread/INFO] [ToolLeveling+/]: Sending config 'command_config.json' to player 'VivaCristoLol'
+[13Jul2024 02:50:16.002] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Received Hello from Client. (server=3.0.14, client=3.0.14)
+[13Jul2024 02:50:16.003] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Sending Hello to Client. (server=3.0.14)
+[13Jul2024 02:50:16.004] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Listing Mod betternether v9.0.10 (size: 21.9 MiB, download=true)
+[13Jul2024 02:50:16.004] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Listing Mod bclib v3.0.14 (size: 2.2 MiB, download=true)
+[13Jul2024 02:50:16.004] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_betternether.main
+[13Jul2024 02:50:16.004] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_betternether.generator
+[13Jul2024 02:50:16.005] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_betternether.blocks
+[13Jul2024 02:50:16.005] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_betternether.items
+[13Jul2024 02:50:16.005] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_betternether.biomes
+[13Jul2024 02:50:16.005] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_betternether.mobs
+[13Jul2024 02:50:16.005] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_bclib.generator
+[13Jul2024 02:50:16.005] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_bclib.main
+[13Jul2024 02:50:16.005] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_bclib.biomes
+[13Jul2024 02:50:16.005] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_betterend.entities
+[13Jul2024 02:50:16.006] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_betterend.blocks
+[13Jul2024 02:50:16.006] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_betterend.items
+[13Jul2024 02:50:16.006] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_betterend.enchantments
+[13Jul2024 02:50:16.006] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Folder /workspaces/Modgest/servidor_minecraft/bclib-sync (allowDelete=true)
+[13Jul2024 02:50:18.477] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Kamder> otia aldea
+[13Jul2024 02:50:24.070] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Kamder> a lootear la comida
+[13Jul2024 02:50:29.711] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Kamder> y secuestrar los aldeanos en cubos
+[13Jul2024 02:50:45.495] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: VivaCristoLol lost connection: Timed out
+[13Jul2024 02:50:45.496] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: VivaCristoLol left the game
+[13Jul2024 02:51:45.055] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: VivaCristoLol[/127.111.236.208:48283] logged in with entity id 94121 at (-7068.962288936406, 70.0, 45.553087277632116)
+[13Jul2024 02:51:45.059] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [betternether] Freeze Registry[ResourceKey[minecraft:root / worlds_together:worldgen/betterx/surface_rules] (Stable)]
+[13Jul2024 02:51:45.069] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: VivaCristoLol joined the game
+[13Jul2024 02:51:45.087] [Server thread/INFO] [ToolLeveling+/]: Sending config 'tool_leveling_table.json' to player 'VivaCristoLol'
+[13Jul2024 02:51:45.087] [Server thread/INFO] [ToolLeveling+/]: Sending config 'command_config.json' to player 'VivaCristoLol'
+[13Jul2024 02:51:45.638] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Received Hello from Client. (server=3.0.14, client=3.0.14)
+[13Jul2024 02:51:45.638] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] Sending Hello to Client. (server=3.0.14)
+[13Jul2024 02:51:45.639] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Listing Mod betternether v9.0.10 (size: 21.9 MiB, download=true)
+[13Jul2024 02:51:45.639] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Listing Mod bclib v3.0.14 (size: 2.2 MiB, download=true)
+[13Jul2024 02:51:45.639] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_betternether.main
+[13Jul2024 02:51:45.639] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_betternether.generator
+[13Jul2024 02:51:45.639] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_betternether.blocks
+[13Jul2024 02:51:45.639] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_betternether.items
+[13Jul2024 02:51:45.639] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_betternether.biomes
+[13Jul2024 02:51:45.640] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_betternether.mobs
+[13Jul2024 02:51:45.640] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_bclib.generator
+[13Jul2024 02:51:45.640] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_bclib.main
+[13Jul2024 02:51:45.640] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_bclib.biomes
+[13Jul2024 02:51:45.640] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_betterend.entities
+[13Jul2024 02:51:45.640] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_betterend.blocks
+[13Jul2024 02:51:45.640] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_betterend.items
+[13Jul2024 02:51:45.640] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Config bclib.CONFIG_betterend.enchantments
+[13Jul2024 02:51:45.640] [Server thread/INFO] [org.betterx.worlds.together.util.Logger/]: [bclib] 	- Offering Folder /workspaces/Modgest/servidor_minecraft/bclib-sync (allowDelete=true)
+[13Jul2024 02:53:11.525] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <VivaCristoLol> psasame cooords de tu portal xdd
+[13Jul2024 02:53:15.899] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Kamder> a
+[13Jul2024 02:53:18.304] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Kamder> pera
+[13Jul2024 02:53:25.706] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Kamder> como se ve los waypoints creados?xd
+[13Jul2024 02:53:34.113] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <VivaCristoLol> ete
+[13Jul2024 02:53:37.098] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <VivaCristoLol> apretas la b
+[13Jul2024 02:54:06.595] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Kamder> 221 53 -532
+[13Jul2024 02:54:06.608] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4282ms or 85 ticks behind
+[13Jul2024 02:54:15.817] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <VivaCristoLol> gracia
+[13Jul2024 02:55:01.504] [Worker-Main-1/INFO] [org.betterx.worlds.together.util.Logger/]: [betternether] BBox:BoundingBox{minX=-928, minY=22, minZ=336, maxX=-752, maxY=96, maxZ=512}
+[13Jul2024 02:55:11.718] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Farmer'/92288, l='ServerLevel[world]', x=1885.62, y=73.92, z=-6512.40] died, message: 'Farmer was slain by Kamder'
+[13Jul2024 02:55:21.418] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Fletcher'/92222, l='ServerLevel[world]', x=1850.99, y=73.00, z=-6526.70] died, message: 'Fletcher was slain by Kamder'
+[13Jul2024 02:55:35.436] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/92371, l='ServerLevel[world]', x=1901.34, y=-128.08, z=-6490.41] died, message: 'Villager fell out of the world'
+[13Jul2024 02:57:24.373] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/92072, l='ServerLevel[world]', x=1883.14, y=-128.08, z=-6548.86] died, message: 'Villager fell out of the world'
+[13Jul2024 02:57:39.705] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Nitwit'/92249, l='ServerLevel[world]', x=1902.99, y=-128.08, z=-6527.20] died, message: 'Nitwit fell out of the world'
+[13Jul2024 02:57:48.835] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/92227, l='ServerLevel[world]', x=1901.59, y=-128.08, z=-6513.86] died, message: 'Villager fell out of the world'
+[13Jul2024 02:57:58.077] [Worker-Main-1/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id betternether:chair
+[13Jul2024 02:58:35.132] [Worker-Main-1/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id betternether:chair
+[13Jul2024 02:58:54.485] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/92007, l='ServerLevel[world]', x=1902.32, y=-128.08, z=-6568.51] died, message: 'Villager fell out of the world'
+[13Jul2024 02:59:13.985] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/92231, l='ServerLevel[world]', x=1923.95, y=-128.08, z=-6557.55] died, message: 'Villager fell out of the world'
+[13Jul2024 02:59:32.887] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/92251, l='ServerLevel[world]', x=1907.46, y=-128.08, z=-6574.47] died, message: 'Villager fell out of the world'
+[13Jul2024 02:59:34.597] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/99793, l='ServerLevel[world]', x=1906.79, y=-128.08, z=-6574.52] died, message: 'Villager fell out of the world'
+[13Jul2024 02:59:56.587] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/92006, l='ServerLevel[world]', x=1897.22, y=-128.08, z=-6576.07] died, message: 'Villager fell out of the world'
+[13Jul2024 03:00:49.224] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [VivaCristoLol: Set own game mode to Creative Mode]
+[13Jul2024 03:00:51.265] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: VivaCristoLol moved too quickly! 5.105397938754152,5.8211804394677635,-6.850975073902333
+[13Jul2024 03:00:59.611] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: VivaCristoLol moved too quickly! 4.705828810932417,3.374995736645232,-8.32677866948876
+[13Jul2024 03:01:06.606] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [VivaCristoLol: Set own game mode to Survival Mode]
+[13Jul2024 03:03:00.345] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/102922, l='ServerLevel[world]', x=1890.95, y=-128.08, z=-6546.75] died, message: 'Villager fell out of the world'
+[13Jul2024 03:03:21.264] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <VivaCristoLol> alñfin en la fokin house
+[13Jul2024 03:03:24.474] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Kamder> xdd
+[13Jul2024 03:03:28.510] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Kamder> yo sigo en la aldea que encontre
+[13Jul2024 03:03:35.024] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Kamder> habia bastantes aldeanos
+[13Jul2024 03:03:48.159] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/104196, l='ServerLevel[world]', x=1910.84, y=-128.08, z=-6521.39] died, message: 'Villager fell out of the world'
+[13Jul2024 03:05:04.710] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Kamder> duerme
+[13Jul2024 03:07:14.970] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Kamder> WAOW
+[13Jul2024 03:07:16.918] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Kamder> otra aldea
+[13Jul2024 03:07:18.665] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Kamder> justo enfrente
+[13Jul2024 03:07:21.710] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Kamder> como a 200 bloques
+[13Jul2024 03:07:34.973] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2347ms or 46 ticks behind
+[13Jul2024 03:07:43.563] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Kamder> sunbird
+[13Jul2024 03:07:45.482] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Kamder> q bonito es
